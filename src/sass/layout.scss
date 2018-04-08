@@ -53,8 +53,14 @@
     text-align: center;
     padding-top: $spacing-unit;
     .page-title{
-      font-size: 8rem;
-      margin-bottom: 0;
+      font-size: 6rem;
+      margin: 0;
     }
   }
 } 
+
+.post{
+  h2{
+    text-align: center;
+  }
+}
