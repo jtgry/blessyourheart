@@ -7,3 +7,4 @@ categories:
 image: images/flowers.jpg
 
 ---
+Welcome to our new website!
