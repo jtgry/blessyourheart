@@ -1,9 +1,9 @@
 ---
-title: "Thanks"
-date: 2017-06-26 15:00:00 +0000
+title: Welcome To Our New Website
+date: 2018-04-08 15:00:00 +0000
 categories:
 - website
 - store
-draft: false
-image: "images/flowers.jpg"
+image: images/flowers.jpg
+
 ---
