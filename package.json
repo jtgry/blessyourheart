@@ -18,6 +18,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-if": "^2.0.2",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-newer": "^1.3.0",
     "gulp-plumber": "^1.1.0",
@@ -36,9 +38,5 @@
     "presets": [
       "es2015"
     ]
-  },
-  "devDependencies": {
-    "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^3.4.0"
   }
 }
