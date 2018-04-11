@@ -73,6 +73,25 @@
   .block-feature-content{
     display: table;
     width: 100%;
+    padding: $spacing-unit 0;
+    .block-feature-item{
+      background: $color-white;
+      @include column(1/3, $gutter: 6);
+      border-radius: .2em;
+      box-shadow: $box-shadow;
+      text-align: center;
+      padding: $spacing-unit / 2 0;
+      h2{
+        font-size: 4rem;
+        margin: 0;
+      }
+      ul{
+        margin: 0;
+      }
+      li{
+        list-style: none;
+      }
+    }
     .block-text{
       text-align: center;
       margin: 0 auto;
