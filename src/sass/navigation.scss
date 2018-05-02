@@ -39,6 +39,10 @@ nav{
       float: left;
       font-size: 1.8rem;
       width: auto;
+      display: none;
+      @media (max-width: $tablet) {
+        display: block;
+      }
     }
     ul{
       margin: 0;
