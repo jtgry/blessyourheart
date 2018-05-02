@@ -2,30 +2,58 @@
   <div class="vertical">
     <div class="container-wide">
       <div class="nav-items">
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/store/">Visit Us</a>
-            </li>
-            <li>
-              <a href="/story">Our Story</a>
-            </li>
-            <li class="nav-title">
-                <a href="{{ .Site.BaseURL }}"><img class="nav-logo" src="/images/blessyourheart-masonjar.svg" alt="{{ .Site.Title }}"></a>
-            </li>
-            <li>
-              <a href="/services/">Services</a>
-            </li>
-            <li>
-              <a href="/">Journal</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
-            </li>
-          </ul>
-        </div>
+        <a href="{{ .Site.BaseURL }}"><img class="nav-logo" src="/images/blessyourheart-masonjar.svg" alt="{{ .Site.Title }}"></a>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/store/">Visit Us</a>
+          </li>
+          <li>
+            <a href="/story">Our Story</a>
+          </li>
+          <li class="nav-title">
+              <a href="{{ .Site.BaseURL }}"><img class="nav-logo" src="/images/blessyourheart-masonjar.svg" alt="{{ .Site.Title }}"></a>
+          </li>
+          <li>
+            <a href="/services/">Services</a>
+          </li>
+          <li>
+            <a href="/">Journal</a>
+          </li>
+          <li>
+            <a href="/">Contact</a>
+          </li>
+        </ul>
+            <a href="#" class="nav-button" id="navButton">
+      <span class="burger-icon"></span>
+    </a>
+      </div>
     </div>
+  </div>
+</nav>
+<nav class="mobile-nav">
+  <div class="mobile-nav-items">
+    <ul class=vertical>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/store/">Visit Us</a>
+      </li>
+      <li>
+        <a href="/story">Our Story</a>
+      </li>
+      <li>
+        <a href="/services/">Services</a>
+      </li>
+      <li>
+        <a href="/">Journal</a>
+      </li>
+      <li>
+        <a href="/">Contact</a>
+      </li>
+    </ul>
   </div>
 </nav>

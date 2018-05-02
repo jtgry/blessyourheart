@@ -32,11 +32,20 @@ nav{
     background: $color-transparent;
   }
   .nav-items{
+    height: 4em;
     width: 100%;
+    img.nav-logo{
+      height: 2em;
+      float: left;
+      font-size: 1.8rem;
+      width: auto;
+    }
     ul{
-      height: 4em;
       margin: 0;
       display: inline-block;
+      @media (max-width: $tablet) {
+        display: none;
+      }
       li{
         float: left;
         display: block;
@@ -73,5 +82,71 @@ nav{
           margin-top: -.7em;
         }
     }
+  }
+}
+a.nav-button {
+  display: none;
+  margin-top: .8em;
+  z-index: 2000;
+  box-shadow: none;
+  float: right;
+  @media (max-width: $tablet) {
+    display: inline-block;
+  }
+}
+@import "burger";
+.burger-icon {
+	@include burger(30px, 3px, 5px, $color-brand-alt);
+}
+.dark .burger-icon {
+	@include burger(30px, 3px, 5px, $color-black);
+}
+.nav-button.is-active .burger-icon {
+	@include burger-to-cross($color-brand);
+}
+
+//Mobile Menu
+.mobile-nav{
+  width: 100%;
+  height: 100%;
+  z-index: 1500;
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+  background: $color-white;
+  position: fixed;
+}
+.mobile-nav-items{
+  width: 100vw;
+  height: 100vh;
+  display: table;
+  letter-spacing: .2em;
+}
+.mobile-nav-items ul{
+  width: 100vw;
+  height: 100vh;
+}
+.mobile-nav-items a{
+  font-size: .9rem;
+  letter-spacing: .1em;
+  display: block;
+  padding: .5em 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.mobile-nav-items a:hover{
+  text-decoration: none;
+  color: $color-brand;
+  -webkit-transition: color .3s linear; /* Saf3.2+, Chrome */
+  -moz-transition: color .3s linear; /* FF3.7+ */
+  -o-transition: color .3s linear; /* Opera 10.5 */
+  transition: color .3s linear;
+}
+
+.mobile-nav-items a.nav-calltoaction{
+  color: $color-white;
+  background: $color-brand;
+  &:hover {
+    color: $color-white;
   }
 }

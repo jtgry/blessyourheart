@@ -11,7 +11,6 @@ var feed = new Instafeed({
 feed.run();
 
 $(document).ready(function () {
-
   window.onload = function () { 
     $("#cover").fadeOut(300);
     window.sr = ScrollReveal();
@@ -25,6 +24,15 @@ $(document).ready(function () {
     sr.reveal('.block-image', {origin: 'bottom', scale: 1, duration: 1500 }, 200);
     sr.reveal('.block-instagram', {origin: 'bottom', scale: 1, duration: 1000 }, 200);
     sr.reveal('.fancy-button', {origin: 'bottom', scale: 1, duration: 1000 }, 200);
+    
+    var menuButton = document.getElementById('navButton');
+    menuButton.addEventListener('click', function (e) {
+      menuButton.classList.toggle('is-active');
+      e.preventDefault();
+    });
+    $('.nav-button').click(function() {
+      $(".mobile-nav").fadeToggle(500);
+    });
   }
   
 
