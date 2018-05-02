@@ -1,3 +1,6 @@
+.contact-form{
+  padding-top: $spacing-unit;
+}
 form{
   display: block;
   margin: $spacing-unit 0;
@@ -16,7 +19,7 @@ label.form-label {
   font-family: $base-font-family;
   color: $color-brand;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   float: left;
 }
 input.form-control {
@@ -24,7 +27,7 @@ input.form-control {
   text-align: left;
   margin-bottom: $spacing-unit / 2;
   height: 2em;
-  font-size: 1.8rem;
+  font-size: 1rem;
   width:100%;
   background:transparent;
   border:none;
@@ -39,7 +42,7 @@ select.form-control {
   text-align: left;
   margin-bottom: $spacing-unit / 2;
   height: 2em;
-  font-size: 1.8rem;
+  font-size: 1rem;
   width:100%;
   background:transparent;
   border:none;
@@ -58,7 +61,7 @@ textarea.form-control{
   text-align: left;
   margin-bottom: $spacing-unit /2;
   height:5em;
-  font-size: 140%;
+  font-size: 100%;
   width:99%;
   background:transparent;
   border:none;

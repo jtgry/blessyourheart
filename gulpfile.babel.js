@@ -135,7 +135,7 @@ gulp.task('js', () => {
 })
 
 gulp.task('fonts', () => {
-    return gulp.src('src/fonts/**/*.{woff,woff2}')
+    return gulp.src('src/fonts/**/*')
         .pipe(gulp.dest('static/fonts'));
 });
 
@@ -143,7 +143,6 @@ gulp.task('images', () => {
     return gulp.src('src/images/**/*.{png,jpg,jpeg,gif,svg,webp,ico}')
         .pipe($.newer('static/images'))
         .pipe($.print())
-        .pipe($.imagemin())
         .pipe(gulp.dest('static/images'));
 });
 gulp.task('images-resize-small', () => {

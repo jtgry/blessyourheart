@@ -1,14 +1,38 @@
 footer{
   background: $color-white;
-  height: 20em;
   width: 100%;
   padding: $spacing-unit / 2 0;
   display: table;
   text-align: center;
 
+  .social-items{
+    margin: 0;
+    margin-bottom: $spacing-unit;
+    display: inline-block;
+    li{
+      display: inline;
+      margin: $spacing-unit / 2;
+      @media (max-width: $phone) {
+        margin: $spacing-unit / 4;
+      }
+      a{
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: .2em;
+        @media (max-width: $phone) {
+          font-size: .7rem;
+        }
+      }
+    }
+  }
   .footer-logo{
     height: 5em;
     width: auto;
+    margin-bottom: $spacing-unit;
     
+  }
+  address{
+    font-family: $base-font-family;
+    text-transform: uppercase;
   }
 }

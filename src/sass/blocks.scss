@@ -1,9 +1,9 @@
 .block-image{
   display: table;
   width: 50%;
-  min-height: 40vw;
-  max-height: 40vw;
-  height: 40vw;
+  min-height: 50vw;
+  max-height: 50vw;
+  height: 50vw;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -12,7 +12,7 @@
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  @include span(2/5);
+  @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
     min-height: 60vw;
@@ -23,9 +23,9 @@
 .block-content{
   display: table;
   width: 50%;
-  min-height: 40vw;
-  max-height: 40vw;
-  height: 40vw;
+  min-height: 50vw;
+  max-height: 50vw;
+  height: 50vw;
   background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: scroll;
@@ -34,7 +34,7 @@
   -o-background-size: 70%;
   background-size: 70%;
   overflow-y: hidden;
-  @include span(3/5);
+  @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
     display: table;
@@ -55,6 +55,37 @@
     }
   }
 }
+.block-feature-text{
+  width: 100%;
+  display: table;
+  min-height: 60vh;
+  max-height: 60vh;
+  height: 60vh;
+  padding: $spacing-unit 0;
+  background: $color-white;
+  h2.block-sub-title{
+    font-size: .9rem;
+    font-family: $base-font-family;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    margin-bottom: $spacing-unit / 4;
+    color: $color-grey;
+    text-align: center;
+    @media (max-width: $phone) {
+      font-size: 1rem;
+    }
+  }
+  h2.block-title{
+  font-size: 5rem;
+  margin-bottom: $spacing-unit / 2;
+  color: $color-brand;
+  text-align: center;
+  @media (max-width: $phone) {
+    font-size: 3rem;
+  }
+  }
+}
 .block-feature{
   width: 100%;
   display: table;
@@ -68,8 +99,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
   padding: $spacing-unit 0;
+  h2.block-title{
+    font-size: 5rem;
+    margin-bottom: $spacing-unit / 2;
+    color: $color-brand;
+    @media (max-width: $phone) {
+      font-size: 3rem;
+    }
+  }
   .block-feature-content{
     display: table;
     width: 100%;
@@ -92,22 +130,60 @@
         list-style: none;
       }
     }
+    h2.block-title{
+      color: $color-white;
+    }
     .block-text{
       text-align: center;
       margin: 0 auto;
       width: 100%;
-      p{
-        color: $color-white;
+      @media (max-width: $phone) {
+        text-align: left;
       }
-  
-      h2.block-title{
-        font-size: 5rem;
-        margin-bottom: $spacing-unit / 2;
+      p{
         color: $color-white;
       }
     }
   }
-  
+}
+.block-feature-image{
+  width: 90%;
+  display: table;
+  min-height: 70vh;
+  max-height: 70vh;
+  height: 70vh;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: $spacing-unit 0;
+  margin: $spacing-unit 5%;
+  @media (max-width: $phone) {
+    min-height: 20vh;
+    max-height: 20vh;
+    height: 20vh;
+  }
+  }
+.block-instagram-feed{
+  width: 100%;
+  display: table;
+  min-height: 60vh;
+  max-height: 60vh;
+  height: 60vh;
+  background: $color-off-white;
+  padding: $spacing-unit 0;
+  h2.block-title{
+    font-size: 5rem;
+    margin-bottom: $spacing-unit / 2;
+    color: $color-brand-alt;
+    @media (max-width: $phone) {
+      font-size: 3rem;
+    }
+  }
 }
 .instafeed{
   display: inline-block;
@@ -120,6 +196,7 @@
   min-height: 20vw;
   max-height: 20vw;
   height: 20vw;
+  background: $color-off-white;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -128,6 +205,91 @@
   -o-background-size: cover;
   background-size: cover;
   box-shadow: $box-shadow;
-  @include column(1/4, $cycle: 4);
   margin-bottom: $spacing-unit;
+  @include column(1/4, $cycle: 4);
+  @media (max-width: $tablet) {
+    @include column(1/2, $cycle: 2);
+    min-height: 40vw;
+    max-height: 40vw;
+    height: 40vw;
+  }
+}
+
+.block-map{
+  display: inline-block;
+  width: 100%;
+  .block-map-image{
+    background: $color-grey-light;
+    width: 100%;
+    display: table;
+    min-height: 80vh;
+    max-height: 80vh;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: $spacing-unit 0;
+    @include span(4/6);
+    @media (max-width: $tablet) {
+      @include stack();
+      min-height: 40vw;
+      max-height: 40vw;
+      height: 40vw;
+    }
+  }
+  .block-map-content{
+    background: $color-brand;
+    width: 100%;
+    display: table;
+    min-height: 80vh;
+    max-height: 80vh;
+    height: 80vh;
+    padding: $spacing-unit 0;
+    @include span(2/6);
+    @media (max-width: $tablet) {
+      @include stack();
+      min-height: 40vw;
+      max-height: 40vw;
+      height: 40vw;
+      display: table;
+    }
+    .block-map-content-item{
+      @include stack();
+      @media (max-width: $tablet) {
+        @include column(1/2);
+      }
+    }
+    hr{
+      border: 0;
+      height: .3em;
+      background: $color-white;
+      width: 2em;
+      margin: 0 auto;
+      margin-bottom: $spacing-unit / 3;
+    }
+    h3{
+      color: $color-white;
+      text-align: center;
+      margin: 0;
+    }
+    p{
+      color: $color-white;
+      text-align: center;
+      font-size: .9rem;
+      margin: 0;
+    }
+    a{
+      color: $color-white;
+    }
+    .fancy-button{
+      text-align: center;
+      margin: 0 auto;
+      margin-top: $spacing-unit / 2;
+      width: 100%;
+    }
+  }
 }

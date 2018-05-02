@@ -33,26 +33,38 @@
 .bg2:before {
   background: $color-brand-alt;
 }
+button{
+  background: none;
+  border: none;
+  padding: none;
+  margin: none;
+}
 /* fancy Button */
-a.fancy-button {
+button.fancy-button,a.fancy-button {
   display: inline-block;
   margin: 30px;
   font-family: $base-font-family;
-  font-size: 17px;
+  font-size: 1rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   position: relative;
-  
+  @media (max-width: $phone) {
+    font-size: .8rem;
+    margin: 15px;
+  }
   span {
       display: inline-block;
-      padding: 18px 60px;
+      padding: 15px 40px;
       border-radius: .2em;
       position: relative;
       z-index: 2;
       will-change: transform, filter;
       transform-style: preserve-3d;
       transition: all 0.2s ease-out;
+      @media (max-width: $phone) {
+        padding: 10px 30px;
+      }
   }
   &:focus,
   &:active {

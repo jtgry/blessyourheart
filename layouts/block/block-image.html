@@ -1,12 +1,12 @@
 <section class="block-section">
-  <div alt="{{ .Title }}" class="block-image {{ if isset .Params "alignment" }}{{ index .Params "alignment" }}{{ end }}{{ if isset .Params "color" }} {{ .Params.color }}{{ else }} color-white {{ end }}" style="background-image:linear-gradient(rgba(251, 251, 251, 0.2), rgba(251, 251, 251, 0.2)), url(images-resized/medium/{{ .Params.image }});">
+  <div alt="{{ .Title }}" class="block-image {{ if isset .Params "alignment" }}{{ index .Params "alignment" }}{{ end }}{{ if isset .Params "color" }} {{ .Params.color }}{{ else }} color-white {{ end }}" style="background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(images-resized/medium/{{ .Params.image }});">
   </div>
   <div class="block-content">
       <div class="block-text vertical">
         <div class="container">
             <h2 class="block-title">{{ .Title }}</h2>
             {{ .Content }}
-            <a href="{{ .Params.button }}" class="fancy-button bg2"><span>Learn More</span></a>
+
         </div>
       </div>
   </div>

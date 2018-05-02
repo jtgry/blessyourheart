@@ -4,9 +4,12 @@
 
         {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
 
-        <title>{{ block "title" . }}
-            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
-        {{ end }}</title>
+        {{ if .IsHome }}
+            <title>{{ .Site.Title }} | Eclectic, Lake Martin, Alex City, Auburn, Montgomery, Alabama</title>
+        {{ else }}
+            <title>{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }}</title>
+        {{ end }}
+        
 
         {{ range .AlternativeOutputFormats }}
             <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -16,9 +19,10 @@
 
     </head>
     <body>
+        <div id="cover" class="cover"></div>
 
         {{ block "navigation" . }}{{ partial "site/navigation.html" . }}{{ end }}
-
+        
         <main class="site-main" role="main">
 
             {{ block "main" . }}{{ end }}

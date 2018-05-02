@@ -1,9 +1,9 @@
 ---
-title: "Flower Arangements"
+title: "Vist Our Store"
 draft: false
-weight: 3
+weight: 4
 type: "block"
-layout: "block-feature"
+layout: "block-image"
 alignment: "right"
 image: "images/flowers.jpg"
 button: "/about/"

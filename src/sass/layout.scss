@@ -4,8 +4,8 @@
 }
 
 .home-banner{
-  height: 80vh;
-  min-height: 80vh;
+  height: 90vh;
+  min-height: 90vh;
   width: 100%;
   display: table;
   background-repeat: no-repeat;
@@ -15,6 +15,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  @media (max-width: $tablet) {
+    background-attachment: scroll;
+  }
   .home-banner-content{
     width: 100%;
     margin: 0 auto;
@@ -23,9 +26,12 @@
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
     .home-banner-logo{
-      height: 30vh;
+      height: 40vh;
       width: auto;
       margin-bottom: $spacing-unit / 2;
+      @media (max-width: $phone) {
+        margin-bottom: $spacing-unit / 4;
+      }
     }
     .home-banner-title{
       font-size: 4rem;
@@ -36,8 +42,8 @@
   padding: $spacing-unit 0;
 }
 .page-header{
-  height: 50vh;
-  min-height: 50vh;
+  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: table;
   background-repeat: no-repeat;
@@ -47,6 +53,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  @media (max-width: $tablet) {
+    background-attachment: scroll;
+  }
   .page-header-content{
     width: 100%;
     margin: 0 auto;

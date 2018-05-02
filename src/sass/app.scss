@@ -74,7 +74,7 @@ $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
+$base-line-height: 1.9;
 
 $alt-font-family: 'yulinda_script', serif;
 
@@ -82,9 +82,9 @@ $header-font-family: 'yulinda_script', serif;
 
 $spacing-unit:     4rem;
 
-$color-black:      rgba(50,50,50,0.9);
-$color-white:      rgba(254,254,254,.95);
-$color-off-white:  rgba(240,240,240,.95);
+$color-black:      rgba(70,70,70,.9);
+$color-white:      rgba(254,254,254,1);
+$color-off-white:  rgba(251,251,251,1);
 $color-brand:      rgba(33,110,142,1);
 $color-brand-alt:  rgba(157,203,208,1);
 $color-transparent:rgba(0,0,0,0);
@@ -102,7 +102,7 @@ $height-top: 1000;
 // Width of the content area
 $content-width:    820px;
 $phone:            500px;
-$tablet:           800px;
+$tablet:           1024px;
 $laptop:           1400px;
 $desktop:          1600px;
 
