@@ -72,7 +72,7 @@
 // Our variables
 $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 300;
+$base-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.9;
 
@@ -82,16 +82,17 @@ $header-font-family: 'yulinda_script', serif;
 
 $spacing-unit:     4rem;
 
-$color-black:      rgba(70,70,70,.9);
-$color-white:      rgba(254,254,254,1);
-$color-off-white:  rgba(251,251,251,1);
-$color-brand:      rgba(33,110,142,1);
-$color-brand-alt:  rgba(157,203,208,1);
+$color-black:      rgba(60,60,60,.95);
+$color-white:      rgba(255,255,255,.95);
+$color-off-white:  rgba(251,251,251,.95);
+$color-brand:      rgba(33,110,142,.95);
+$color-brand-alt:  rgba(157,203,208,.95);
 $color-transparent:rgba(0,0,0,0);
 $color-grey:       rgba(200,200,200,1);
 $color-grey-light: lighten($color-grey, 10%);
 $color-grey-dark:  darken($color-grey, 20%);
 
+$border-radius: .4em;
 $box-shadow:       0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05);
 
 $height-bottom: 100;
@@ -100,7 +101,7 @@ $height-high: 300;
 $height-top: 1000;
 
 // Width of the content area
-$content-width:    820px;
+$content-width:    740px;
 $phone:            500px;
 $tablet:           1024px;
 $laptop:           1400px;

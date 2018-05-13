@@ -1,0 +1,17 @@
+<section class="block-feature" alt="{{ .Params.heading }}" style="background-image:linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url(/{{ .Params.image }});">
+    <div class="vertical">
+      <div class="block-feature-content">
+        <div class="block-text container">
+          {{- with .Params.heading -}}
+          <h2>{{ markdownify . }}</h2>
+          {{ end }}
+          {{- with .Params.content -}}
+          <p>{{ markdownify . }}</p>
+          {{- end -}}
+          {{- if and .Params.button_url .Params.button_text -}}
+          <a href="{{ .Params.button_url }}" class="fancy-button bg2"><span>{{ .Params.button_text }}</span></a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>

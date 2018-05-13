@@ -1,13 +1,11 @@
 {{ if isset .Params "image" }}
-<header class="page-header" style="background-image:linear-gradient(rgba(255, 255, 255, 1), rgba(157,203,208, .4)), url(/{{ .Params.image }});">
+<header class="page-header" style="background-image:linear-gradient(rgba(255, 255, 255, .1), rgba(157,203,208, .1)), url(/{{ .Params.image }});">
 {{ else }}
-<header class="page-header" style="background-image:linear-gradient(rgba(255, 255, 255, 1), rgba(157, 203, 208, .4)), url(/images/girl.jpg);">
+<header class="page-header" style="background-image:linear-gradient(rgba(255, 255, 255, .1), rgba(157, 203, 208, .1)), url(/images/girl.jpg);">
 {{ end }}
-  <div class="vertical">
-    <div class="container">
-      <div class="page-header-content">
-          <h1 class="page-title">{{ .Title }}</h1>
-        </div>
-    </div>
-  </div>
 </header>
+<div class="page-header-content">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="home-banner" style="background-image:linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.9)), url({{ .Params.image }});">
+<section class="home-banner" style="background-image:linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.95)), url({{ .Params.image }});">
   <div class="vertical">
     <div class="home-banner-content">
       <div class="container">
@@ -10,13 +10,20 @@
         <a href="#contact" class="fancy-button bg1"><span>Contact Us</span></a>
       </div>
     </div>
-  </div>
+</div>
 </section>
 <h1 class="invisible">Bless Your Heart | Farmhouse and French Country Decor</h1>
-{{ range  where .Data.Pages.ByWeight "Section" "home" }}
-{{ .Render .Params.layout }}
-{{ end }}
+<div class="blocks">
+{{- range .Params.blocks -}}
+{{- if eq .template "block-image" -}}{{ partial "blocks/block-image" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-feature" -}}{{ partial "blocks/block-feature" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+
 {{ block "instafeed" . }}{{ partial "site/instafeed.html" . }}{{ end }}
 {{ block "map" . }}{{ partial "site/map.html" . }}{{ end }}
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
+</div>
+
 {{ end }}
+

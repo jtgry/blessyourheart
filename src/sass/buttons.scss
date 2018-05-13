@@ -44,7 +44,7 @@ button.fancy-button,a.fancy-button {
   display: inline-block;
   margin: 30px;
   font-family: $base-font-family;
-  font-size: 1rem;
+  font-size: .9rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -55,8 +55,8 @@ button.fancy-button,a.fancy-button {
   }
   span {
       display: inline-block;
-      padding: 15px 40px;
-      border-radius: .2em;
+      padding: 15px 30px;
+      letter-spacing: 0.1em;
       position: relative;
       z-index: 2;
       will-change: transform, filter;

@@ -1,7 +1,7 @@
 ---
 title: "Our Story"
 draft: false
-image: "images/interior4.jpg"
+image: "images/blessyourheartteam.jpg"
 ---
 Our story began when we fell in love with transforming vintage furniture. The back porch became our workplace as we experimented with different painting techniques. We sold our items in booths that we  rented in local antique malls. The weather, along with strenuous trips to and from our little places of business began to wear on us, and wet our appetites to open a store of our own, so began our journey to find the perfect venue. We chose the town of Eclectic because it was half way between our homes in Wetumpka and Lake Martin. A former little post office building had just become available to rent and after lots of prayer, we took the plunge! We opened our doors during the annual Cotton Festival in October of 2015, meeting the sweet people of Eclectic for the first time.  Loving all things southern- we decided to name our store a phrase heard throughout the south, …Bless Your Heart.
 
