@@ -1,4 +1,4 @@
-@import 'jeet/jeet';
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat/Montserrat-Regular.eot');
@@ -112,9 +112,10 @@ $desktop:          1600px;
         @content;
     }
 }
-
 // Import SCSS
 @import
+"jeet/jeet",
+"animate/animate",
 "base",
 "layout",
 "blocks",

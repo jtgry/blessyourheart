@@ -251,3 +251,48 @@ address{
         clear: both;
     }
 }
+/**
+ * Animations
+ */
+
+.fade-in{
+  @include fadeIn(
+    $delay: .8s
+  );
+}
+.fade-in-slow{
+  @include fadeIn(
+    $delay: 1.2s
+  );
+}
+.fade-in-slower{
+  @include fadeIn(
+    $delay: 1.8s
+  );
+}
+.fade-in-slowest{
+  @include fadeIn(
+    $delay: 2s
+  );
+}
+
+.fade-in-up{
+  @include fadeInUp(
+    $delay: 1.4s
+  );
+}
+.fade-in-up-slow{
+  @include fadeInUp(
+    $delay: 1.8s
+  );
+}
+.fade-in-slower{
+  @include fadeIn(
+    $delay: 1.8s
+  );
+}
+.fade-in-slowest{
+  @include fadeIn(
+    $delay: 2s
+  );
+}

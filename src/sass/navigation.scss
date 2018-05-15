@@ -3,7 +3,7 @@ nav{
   display: table;
   text-align: center;
   position: absolute;
-  z-index: $height-top;
+  z-index: $height-high;
   -webkit-transition: all .3s ease-out; /* Saf3.2+, Chrome */
   -moz-transition: all .3s ease-out; /* FF3.7+ */
   -o-transition: all .3s ease-out; /* Opera 10.5 */
@@ -78,7 +78,7 @@ nav{
 a.nav-button {
   display: none;
   margin-top: .8em;
-  z-index: 2000;
+  z-index: $height-top;
   box-shadow: none;
   float: right;
   @media (max-width: $tablet) {
@@ -100,7 +100,7 @@ a.nav-button {
 .mobile-nav{
   width: 100%;
   height: 100%;
-  z-index: 1500;
+  z-index: $height-high;
   text-transform: uppercase;
   text-align: center;
   display: none;
