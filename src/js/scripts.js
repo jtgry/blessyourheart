@@ -11,7 +11,12 @@ var feed = new Instafeed({
 feed.run();
 
 $(document).ready(function () {
-  $("#cover").fadeOut(500);
+  $("#cover").addClass("fade-out");
+  $("#cover").addClass("invisible");
+
+  var Turbolinks = require("turbolinks")
+  Turbolinks.start() 
+  
   window.sr = ScrollReveal();
     
   window.onload = function () { 
