@@ -12,14 +12,11 @@ feed.run();
 
 $(document).ready(function () {
   $("#cover").addClass("fade-out");
-  $("#cover").addClass("invisible");
-
-  var Turbolinks = require("turbolinks")
-  Turbolinks.start() 
-  
   window.sr = ScrollReveal();
     
   window.onload = function () { 
+    $("#cover").addClass("fade-out");
+    $("#cover").addClass("invisible");
     sr.reveal('.home-banner-item', {origin: 'bottom', scale: 1, duration: 1200});
     sr.reveal('.block-feature-image', {origin: 'bottom', scale: 1, duration: 1200});
     sr.reveal('.block-map', {origin: 'bottom', scale: 1, duration: 1200});

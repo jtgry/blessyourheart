@@ -17,7 +17,6 @@
 
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 
-        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
     </head>
     <body>
         <div id="cover" class="cover"></div>
@@ -32,7 +31,7 @@
 
         {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
 
-
+        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
 
     </body>
 </html>
