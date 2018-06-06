@@ -1,12 +1,12 @@
 ---
 title: "Welcome"
 draft: false
-image: "images/interior4.jpg"
+image: "images/flower.jpg"
 description: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
 blocks:
 
   - template: "block-image"
-    heading: "Our Services"
+    heading: "Welcome"
     content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
     image: "images/flowers.jpg"
     image_alignment: "left"
@@ -15,14 +15,14 @@ blocks:
   - template: "block-feature"
     heading: "Welcome To Bless Your Heart"
     content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
-    image: "images/blessyourheart-collage.jpg"
+    image: "images/tulips.jpg"
     image_alignment: "right"
     button_text: "Learn More"
     button_url: "/Shop"
   - template: "block-image"
     heading: "Our Services"
     content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
-    image: "images/flowers.jpg"
+    image: "images/interior2.jpg"
     image_alignment: "right"
     button_text: "Learn More"
     button_url: "/Shop"

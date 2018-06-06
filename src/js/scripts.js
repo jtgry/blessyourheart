@@ -11,7 +11,6 @@ var feed = new Instafeed({
 feed.run();
 
 $(document).ready(function () {
-  $("#cover").addClass("fade-out");
   window.sr = ScrollReveal();
     
   window.onload = function () { 

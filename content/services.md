@@ -1,5 +1,5 @@
 ---
-title: "Our Store"
+title: "Our Services"
 draft: false
 image: "images/tulips.jpg"
 description: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
@@ -26,4 +26,3 @@ blocks:
     button_text: "Learn More"
     button_url: "/Shop"
 ---
-Welcome to our Store!

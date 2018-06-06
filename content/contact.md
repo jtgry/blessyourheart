@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 draft: false
-image: "images/flowers.jpg"
+image: "images/flower.jpg"
 type: "page"
 layout: "contact"
 ---

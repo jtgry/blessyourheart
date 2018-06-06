@@ -1,7 +1,30 @@
 ---
 title: "Our Story"
 draft: false
-image: "images/blessyourheartteam.jpg"
+image: "images/tulips.jpg"
+description: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+blocks:
+  - template: "block-image"
+    heading: "Welcome"
+    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    image: "images/flowers.jpg"
+    image_alignment: "left"
+    button_text: "Learn More"
+    button_url: "/Shop"
+  - template: "block-feature"
+    heading: "Welcome To Bless Your Heart"
+    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    image: "images/flower.jpg"
+    image_alignment: "right"
+    button_text: "Learn More"
+    button_url: "/Shop"
+  - template: "block-image"
+    heading: "Our Services"
+    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    image: "images/interior2.jpg"
+    image_alignment: "right"
+    button_text: "Learn More"
+    button_url: "/Shop"
 ---
 Our story began when we fell in love with transforming vintage furniture. The back porch became our workplace as we experimented with different painting techniques. We sold our items in booths that we  rented in local antique malls. The weather, along with strenuous trips to and from our little places of business began to wear on us, and wet our appetites to open a store of our own, so began our journey to find the perfect venue. We chose the town of Eclectic because it was half way between our homes in Wetumpka and Lake Martin. A former little post office building had just become available to rent and after lots of prayer, we took the plunge! We opened our doors during the annual Cotton Festival in October of 2015, meeting the sweet people of Eclectic for the first time.  Loving all things southern- we decided to name our store a phrase heard throughout the south, …Bless Your Heart.
 
