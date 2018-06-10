@@ -16,9 +16,11 @@ blocks:
   button_text: Learn More
   button_url: "/Shop"
 - template: block-feature
-  heading: Welcome To Bless Your Heart
-  content: We are a mother daughter team specializing in farmhouse and french country
-    decor and is passionate about making the vision for your home come true!
+  heading: 'In Home Design Services '
+  content: 'If decorating your own home is an overwhelming task for you, or you have
+    a big event coming up that you’d like your home to be ready for, we would love
+    the opportunity to design one wall to the entire home for you! We’ve included
+    a gallery of some of the homes we’ve designed for you to see. '
   image: images/flower.jpg
   image_alignment: right
   button_text: Learn More
