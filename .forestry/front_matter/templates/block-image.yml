@@ -1,0 +1,27 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Heading
+  name: heading
+  config:
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+- type: select
+  name: image_alignment
+  config:
+    source:
+      type: simple
+    options:
+    - left
+    - right
+  label: Image Alignment
+  default: left
