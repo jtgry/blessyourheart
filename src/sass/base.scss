@@ -255,12 +255,14 @@ address{
 /**
  * Animations
  */
- .load{
-  @include fadeIn(
-    $delay: .4s
-  )
+.load{
+  @include fadeIn();
+  display: block;
 }
-
+.exit{
+  @include fadeOut();
+  display: none;
+}
 .fade-in{
   @include fadeIn(
     $delay: .8s
