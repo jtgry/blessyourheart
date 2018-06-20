@@ -10,14 +10,15 @@ var feed = new Instafeed({
 });
 feed.run();
 
-$(document).ready(function () {
+window.onload = function () {
+	// good to go!
+  document.getElementById('page').className = "load";
+
   window.sr = ScrollReveal();
     
-  window.onload = function () { 
-    $("#cover").addClass("fade-out");
-    $("#cover").addClass("invisible");
     sr.reveal('.home-banner-item', {origin: 'bottom', scale: 1, duration: 1200});
     sr.reveal('.block-feature-image', {origin: 'bottom', scale: 1, duration: 1200});
+    sr.reveal('.block-feature-item', {origin: 'bottom', scale: 1, duration: 1000 }, 200);
     sr.reveal('.block-map', {origin: 'bottom', scale: 1, duration: 1200});
     sr.reveal('.block-feature', {origin: 'bottom', scale: 1, duration: 1200});
     sr.reveal('footer', {origin: 'bottom', scale: 1, duration: 1200});
@@ -31,17 +32,15 @@ $(document).ready(function () {
       menuButton.classList.toggle('is-active');
       e.preventDefault();
     });
-    $('.nav-button').click(function() {
-      $(".mobile-nav").fadeToggle(500);
-    });
-  }
   
 
-});
+
 // grab an element
 var myElement = document.querySelector("#main-nav");
 // construct an instance of Headroom, passing the element
 var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
+};
+
 

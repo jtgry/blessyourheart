@@ -5,30 +5,28 @@ image: "images/tulips.jpg"
 description: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
 blocks:
   - template: "block-image"
-    heading: "Welcome"
-    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    heading: "It All Began"
+    content: "Our story began when we fell in love with transforming vintage furniture. The back porch became our workplace as we experimented with different painting techniques. We sold our items in booths that we  rented in local antique malls. The weather, along with strenuous trips to and from our little places of business began to wear on us, and wet our appetites to open a store of our own, so began our journey to find the perfect venue."
     image: "images/flowers.jpg"
     image_alignment: "left"
-    button_text: "Learn More"
-    button_url: "/Shop"
+    button_text:
+    button_url: 
   - template: "block-feature"
-    heading: "Welcome To Bless Your Heart"
-    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    heading: "A Place To Call Home"
+    content: "We chose the town of Eclectic because it was half way between our homes in Wetumpka and Lake Martin. A former little post office building had just become available to rent and after lots of prayer, we took the plunge! We opened our doors during the annual Cotton Festival in October of 2015, meeting the sweet people of Eclectic for the first time.  Loving all things southern- we decided to name our store a phrase heard throughout the south, …Bless Your Heart."
     image: "images/flower.jpg"
     image_alignment: "right"
-    button_text: "Learn More"
-    button_url: "/Shop"
+    button_text:
+    button_url: 
   - template: "block-image"
-    heading: "Our Services"
-    content: "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
+    heading: "Just The Begining"
+    content: "Our furniture began to sell, but rather slowly and we saw a greater interest in our Farmhouse and French country decor. We crafted and repurposed most of our items, but quickly realized that we could no longer keep up with the demand. We discovered the Atlanta market and spent lots of time searching for unique items that couldn’t be found in just any store."
     image: "images/interior2.jpg"
     image_alignment: "right"
-    button_text: "Learn More"
-    button_url: "/Shop"
----
-Our story began when we fell in love with transforming vintage furniture. The back porch became our workplace as we experimented with different painting techniques. We sold our items in booths that we  rented in local antique malls. The weather, along with strenuous trips to and from our little places of business began to wear on us, and wet our appetites to open a store of our own, so began our journey to find the perfect venue. We chose the town of Eclectic because it was half way between our homes in Wetumpka and Lake Martin. A former little post office building had just become available to rent and after lots of prayer, we took the plunge! We opened our doors during the annual Cotton Festival in October of 2015, meeting the sweet people of Eclectic for the first time.  Loving all things southern- we decided to name our store a phrase heard throughout the south, …Bless Your Heart.
+    button_text: 
+    button_url: 
 
-Our furniture began to sell, but rather slowly and we saw a greater interest in our Farmhouse and French country decor. We crafted and repurposed most of our items, but quickly realized that we could no longer keep up with the demand. We discovered the Atlanta market and spent lots of time searching for unique items that couldn’t be found in just any store.
+---
 
 We were amazed at how quickly our business grew, and within 2 years, we needed more room. We asked the Lord for guidance, and a larger building became available. We had been looking in the windows of an old former hardware store just down the street, and had a vision of what could become a quaint, beautiful home décor store. After many weeks of cleaning, painting and refurbishing, Bless Your Heart reopened in September of 2017.
 

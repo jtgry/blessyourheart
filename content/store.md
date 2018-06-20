@@ -26,4 +26,3 @@ blocks:
     button_text: "Learn More"
     button_url: "/Shop"
 ---
-Welcome to our Store!

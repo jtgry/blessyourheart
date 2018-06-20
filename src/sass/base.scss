@@ -33,6 +33,7 @@ body {
     -moz-font-feature-settings: "kern";
     -moz-font-feature-settings: "kern=1";
     -ms-font-feature-settings: normal;
+    opacity: 0;
 }
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -44,16 +45,16 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 h1{
-  font-size: 5rem;
-}
-h2{
-  font-size: 4rem;
-}
-h3{
   font-size: 3rem;
 }
-h4{
+h2{
+  font-size: 2.5rem;
+}
+h3{
   font-size: 2rem;
+}
+h4{
+  font-size: 1.8rem;
 }
 h5{
   font-size: 1.5rem;
@@ -254,11 +255,16 @@ address{
 /**
  * Animations
  */
+ .load{
+  @include fadeIn(
+    $delay: .4s
+  )
+}
 
 .fade-in{
   @include fadeIn(
     $delay: .8s
-  );
+  )
 }
 .fade-in-slow{
   @include fadeIn(
@@ -267,7 +273,7 @@ address{
 }
 .fade-in-slower{
   @include fadeIn(
-    $delay: 1.4s
+    $delay: 1.2s
   );
 }
 .fade-in-slowest{
@@ -278,17 +284,17 @@ address{
 
 .fade-in-up{
   @include fadeInUp(
-    $delay: 1s
+    $delay: .8s
   );
 }
 .fade-in-up-slow{
   @include fadeInUp(
-    $delay: 1.4s
+    $delay: 1s
   );
 }
 .fade-in-up-slower{
   @include fadeInUp(
-    $delay: 1.6s
+    $delay: 1.2s
   );
 }
 .fade-in-up-slowest{

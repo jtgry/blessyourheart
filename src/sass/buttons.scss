@@ -63,6 +63,7 @@ button.fancy-button,a.fancy-button {
       transform-style: preserve-3d;
       transition: all 0.2s ease-out;
       box-shadow: $box-shadow;
+      border-radius: .3em;
       @media (max-width: $phone) {
         padding: 10px 30px;
       }
