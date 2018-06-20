@@ -25,6 +25,10 @@ nav{
       padding: 0;
       margin: .5em 1.8em;
       float: left;
+      display: none;
+      @media (max-width: $tablet) {
+        display: block;
+      }
       &:hover{
         box-shadow: none;
       }

@@ -58,6 +58,9 @@
   }
   .block-text{
     text-align: center;
+    @media (max-width: $tablet) {
+      text-align: left;
+    }
     hr{
       background: $color-grey-light;
       height: 1px; 
