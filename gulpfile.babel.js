@@ -130,7 +130,6 @@ gulp.task('js', () => {
     .pipe($.plumber({ errorHandler: onError }))
     .pipe($.print())
     .pipe($.concat('app.js'))
-    .pipe($.if(isProduction, $.uglify()))
     .pipe($.size({ gzip: true, showFiles: true }))
     .pipe(gulp.dest('static/js'))
 })
