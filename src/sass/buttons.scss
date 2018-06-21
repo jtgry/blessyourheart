@@ -50,8 +50,9 @@ button.fancy-button,a.fancy-button {
   color: #ffffff;
   position: relative;
   @media (max-width: $phone) {
-    font-size: .8rem;
+    font-size: .9rem;
     margin: 15px;
+    margin-left: 0;
   }
   span {
       display: inline-block;

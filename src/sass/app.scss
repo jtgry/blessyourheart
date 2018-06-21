@@ -24,15 +24,15 @@
 // Our variables
 $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 500;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.9;
+$base-line-height: 1.8;
 
 $alt-font-family: 'yulinda_script', serif;
 
 $header-font-family: 'Prata', serif;
 
-$spacing-unit:     4rem;
+$spacing-unit:     3rem;
 
 $color-black:      rgba(60,60,60,.95);
 $color-white:      rgba(255,255,255,.95);
@@ -76,5 +76,6 @@ $desktop:          1600px;
 "buttons",
 "footer",
 "forms",
+"animation.scss",
 "util"
 ;

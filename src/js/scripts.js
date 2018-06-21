@@ -12,6 +12,10 @@ function removeClass(ele,cls) {
     ele.className=ele.className.replace(reg,' ');  
   }
 }   
+
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
 var feed = new Instafeed({
   get: 'user',
   userId: '2923101612',
@@ -46,11 +50,17 @@ window.onload = function () {
     menuButton.addEventListener('click', function (e) {
       menuButton.classList.toggle('is-active');
       e.preventDefault();
+      
       if (hasClass(mobileNav, 'load')) {
         removeClass(mobileNav, 'load');
         addClass(mobileNav, 'exit');
+        sleep(1200).then(() => {
+          addClass(mobileNav, 'hidden');
+        })
+        
       } else {
         removeClass(mobileNav, 'exit');
+        removeClass(mobileNav, 'hidden');
         addClass(mobileNav, 'load');
       }
     });

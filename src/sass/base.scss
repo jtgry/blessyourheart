@@ -64,7 +64,7 @@ h6{
 }
 p{
   font-family: $base-font-family;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: $color-black;
   letter-spacing: .03em;
 }
@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: $header-font-family;
     color: $color-brand;
+    line-height: 1.4;
 
 }
 
@@ -251,62 +252,4 @@ address{
         display: table;
         clear: both;
     }
-}
-/**
- * Animations
- */
-.load{
-  @include fadeIn();
-  display: block;
-}
-.exit{
-  @include fadeOut();
-  display: none;
-}
-.fade-in{
-  @include fadeIn(
-    $delay: .8s
-  )
-}
-.fade-in-slow{
-  @include fadeIn(
-    $delay: 1s
-  );
-}
-.fade-in-slower{
-  @include fadeIn(
-    $delay: 1.2s
-  );
-}
-.fade-in-slowest{
-  @include fadeIn(
-    $delay: 1.8s
-  );
-}
-
-.fade-in-up{
-  @include fadeInUp(
-    $delay: .8s
-  );
-}
-.fade-in-up-slow{
-  @include fadeInUp(
-    $delay: 1s
-  );
-}
-.fade-in-up-slower{
-  @include fadeInUp(
-    $delay: 1.2s
-  );
-}
-.fade-in-up-slowest{
-  @include fadeInUp(
-    $delay: 1.8s
-  );
-}
-
-.fade-out{
-  @include fadeOut(
-    $delay: .8s
-  );
 }
