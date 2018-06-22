@@ -1,9 +1,9 @@
 {{ if isset .Params "image" }}
-<header class="page-header" style="background-image: url(/{{ .Params.image }});">
+<header class="page-header fade-in" style="background-image: url(/{{ .Params.image }});">
 {{ else }}
-<header class="page-header" style="background-image: url(/images/flower.jpg);">
+<header class="page-header fade-in" style="background-image: url(/images/flower.jpg);">
 {{ end }}
-  <div class="page-header-content fade-in">
+  <div class="page-header-content fade-in-slow">
     <div class="container">
       <h1 class="page-title">{{ .Title }}</h1>
     </div>

@@ -54,12 +54,12 @@ nav{
         a{
           color: $color-brand;
           display: inline-block;
-          padding: $spacing-unit / 3 $spacing-unit / 4;
+          padding: $spacing-unit / 2 $spacing-unit / 4;
           box-shadow: none;
-          font-size: .8rem;
-          font-weight: 500;
-          text-transform: uppercase;
-          letter-spacing: .1em;
+          font-size: 1rem;
+          font-weight: 400;
+
+          letter-spacing: .01em;
           box-shadow: 0 .2em .4em - .4em $color-transparent;
           
         }
@@ -122,13 +122,17 @@ a.nav-button {
 .mobile-nav{
   width: 100%;
   height: 100%;
-  z-index: $height-high;
+  z-index: -3;
   text-transform: uppercase;
   text-align: center;
   background: $color-white;
   position: fixed;
   display: none;
   opacity: 0;
+
+  &.load{
+    z-index: $height-high;
+  }
   
 }
 .mobile-nav-items{
@@ -142,7 +146,7 @@ a.nav-button {
   height: 100vh;
 }
 .mobile-nav-items a{
-  font-size: .9rem;
+  font-size: 1rem;
   letter-spacing: .1em;
   display: block;
   padding: .5em 0;

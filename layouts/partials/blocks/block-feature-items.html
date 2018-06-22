@@ -17,12 +17,12 @@
             {{ range .Params.items }}
               <div class="block-feature-item">
                 <img src="/{{ .image }}" alt="{{ .name }}">
-                <h3>{{ .name }}</h3>
-                {{ with .content }}
                 <div class="container">
+                  <h3>{{ .name }}</h3>
+                  {{ with .content }}
                   <p>{{ markdownify . }}</p>
+                  {{ end }}
                 </div>
-                {{ end }}
                 {{- if and .button_url .button_text -}}
                 <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
                 {{ end }}

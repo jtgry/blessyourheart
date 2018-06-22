@@ -14,8 +14,6 @@
   -o-background-size: cover;
   background-size: cover;
   @media (max-width: $tablet) {
-    height: 70vh;
-    min-height: 70vh;
     background-position: center right;
     background-attachment: scroll;
   }
@@ -31,7 +29,7 @@
       width: auto;
       margin-bottom: $spacing-unit / 2;
       @media (max-width: $phone) {
-        height: 15vh;
+        height: 20vh;
         margin-bottom: $spacing-unit / 4;
       }
     }
@@ -45,11 +43,10 @@
 
 }
 .page-header{
-  height: 70vh;
-  min-height: 70vh;
+  height: 60vh;
+  min-height: 60vh;
   width: 100%;
   display: table;
-  padding-top: 5em;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -65,12 +62,16 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-top: $spacing-unit * 2;
+  margin-top: $spacing-unit * 3;
   .page-title{
     font-size: 7rem;
     margin: 0;
     text-align: center;
     font-family: $alt-font-family;
+
+    @media (max-width: $phone) {
+      font-size: 5rem;
+    }
   }
 }
 

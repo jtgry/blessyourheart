@@ -27,17 +27,22 @@ window.onload = function () {
 	// good to go!
   document.getElementById('page').className = "load";
 
-  window.sr = ScrollReveal();
+  window.sr = ScrollReveal({
+    delay: 1,
+    scale: 0.99,
+    viewFactor: 0.4,
+    distance: "2em"
+  });
     
-    sr.reveal('.home-banner-item', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-feature-image', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-feature-item', {origin: 'bottom', scale: 1, duration: 600 }, 200);
-    sr.reveal('.block-map', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-feature', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('footer', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-content', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-title', {origin: 'bottom', scale: 1, duration: 600});
-    sr.reveal('.block-image', {origin: 'bottom', scale: 1, duration: 600 });
+    sr.reveal('.home-banner-item', {origin: 'bottom', duration: 600});
+    sr.reveal('.block-feature-image', {origin: 'bottom', duration: 600});
+    sr.reveal('.block-feature-item', {origin: 'bottom', duration: 600 }, 200);
+    sr.reveal('.block-map', {origin: 'bottom', duration: 600});
+    sr.reveal('.block-feature', {origin: 'bottom', duration: 600});
+    sr.reveal('footer', {origin: 'bottom', duration: 600});
+    sr.reveal('.block-content', {origin: 'bottom', delay: 2, duration: 800});
+    sr.reveal('.block-feature-content', {origin: 'bottom', delay: 2, duration: 600});
+    sr.reveal('.block-image', {origin: 'bottom', duration: 600 });
 
 
     var menuButton = document.getElementById('navButton');
