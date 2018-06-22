@@ -1,7 +1,7 @@
 ---
 title: Our Story
 draft: false
-image: uploads/amyandmelanie.jpg
+image: uploads/olive.jpg
 description: We are a mother daughter team specializing in farmhouse and french country
   decor and is passionate about making the vision for your home come true!
 blocks:
@@ -25,7 +25,7 @@ blocks:
     doors during the annual Cotton Festival in October of 2015, meeting the sweet
     people of Eclectic for the first time.  Loving all things southern- we decided
     to name our store a phrase heard throughout the south, …Bless Your Heart.
-  image: images/flower.jpg
+  image: uploads/amyandmelanie.jpg
   image_alignment: right
   button_text: 
   button_url: 
