@@ -1,7 +1,6 @@
 ---
 title: Our Story
-draft: false
-image: uploads/olive.jpg
+image: uploads/amyandmelanie.jpg
 description: We are a mother daughter team specializing in farmhouse and french country
   decor and is passionate about making the vision for your home come true!
 blocks:
