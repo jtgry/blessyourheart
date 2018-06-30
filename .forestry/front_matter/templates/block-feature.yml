@@ -1,0 +1,14 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Heading
+  name: heading
+- type: textarea
+  name: content
+  label: Content
+- type: file
+- type: boolean
+  name: overlay
+  label: Overlay
