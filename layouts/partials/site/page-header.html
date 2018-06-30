@@ -3,6 +3,9 @@
 {{ else }}
 <header class="page-header fade-in" style="background-image: url(/images/flower.jpg);">
 {{ end }}
+{{ if eq .Params.overlay true }}
+<div class="page-header-overlay"></div>
+{{ end }}
   <div class="page-header-content fade-in-slow">
     <div class="container">
       <h1 class="page-title">{{ .Title }}</h1>

@@ -57,6 +57,18 @@
   @media (max-width: $tablet) {
     background-attachment: scroll;
   }
+  .page-header-overlay{
+    background-image:linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 } 
 .page-header-content{
   width: 100%;
