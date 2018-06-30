@@ -41,7 +41,6 @@ blocks:
   button_url: 
 
 ---
-
 We were amazed at how quickly our business grew, and within 2 years, we needed more room. We asked the Lord for guidance, and a larger building became available. We had been looking in the windows of an old former hardware store just down the street, and had a vision of what could become a quaint, beautiful home décor store. After many weeks of cleaning, painting and refurbishing, Bless Your Heart reopened in September of 2017.
 
 Our Grand Opening was amazing, as many of our customers walked in our doors in awe of how the old hardware store had been transformed! Amy’s talent and experience in building homes and interior design compliments Melanie’s background in floral design and makes for a wonderful partnership. We added florals and our customers have loved it! Flowers bring the outdoors inside and the vibrant colors bring life to Bless Your Heart.
@@ -52,6 +51,3 @@ We continue to offer our customers decorating services… everything from a mant
 We’re so blessed to be a mother/daughter team, fulfilling our passion and serving others. Our store is our happy place!
 
 We look forward to meeting you and hope that Bless Your Heart becomes your happy place too!
-
-
-
