@@ -30,7 +30,7 @@ $header-font-family: 'Vidaloka', serif;
 
 $spacing-unit:     3rem;
 
-$color-black:      rgba(60,60,60,.99);
+$color-black:      rgba(60,60,60,.90);
 $color-white:      rgba(255,255,255,.95);
 $color-off-white:  rgba(251,251,251,.95);
 $color-brand:      rgba(33,110,142,.95);
@@ -65,11 +65,11 @@ $desktop:          1600px;
 "jeet/jeet",
 "animate/animate",
 "base",
+"buttons",
 "layout",
 "blocks",
 "burger",
 "navigation",
-"buttons",
 "footer",
 "forms",
 "animation.scss",

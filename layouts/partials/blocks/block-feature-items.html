@@ -22,10 +22,11 @@
                   {{ with .content }}
                   <p>{{ markdownify . }}</p>
                   {{ end }}
+                  {{- if and .button_url .button_text -}}
+                  <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
+                  {{ end }}
                 </div>
-                {{- if and .button_url .button_text -}}
-                <a href="{{ .button_url }}" class="fancy-button bg2"><span>{{ .button_text }}</span></a>
-                {{ end }}
+
               </div>
 
             {{ end }}

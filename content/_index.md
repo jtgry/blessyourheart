@@ -13,7 +13,7 @@ blocks:
   button_text: Learn More
   button_url: "/Shop"
 - template: block-feature
-  heading: Welcome To Bless Your Heart
+  heading: Our Passion
   content: We are a mother daughter team specializing in farmhouse and french country
     decor and is passionate about making the vision for your home come true!
   image: images/tulips.jpg

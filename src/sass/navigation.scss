@@ -60,16 +60,16 @@ nav{
           font-weight: 400;
 
           letter-spacing: .01em;
-          box-shadow: 0 .2em .4em - .4em $color-transparent;
+          box-shadow: 0 .1em .4em - .4em $color-transparent;
           
         }
         a:hover{
           color: $color-brand-alt;
-          box-shadow: 0 .2em .4em - .4em $color-brand-alt;
+          box-shadow: 0 .1em .4em - .4em $color-brand-alt;
         }
         a.active{
           color: $color-brand;
-          box-shadow: 0 .2em .4em - .4em $color-brand-alt;
+          box-shadow: 0 .1em .4em - .4em $color-brand-alt;
         }
       }
       a.nav-title{

@@ -151,7 +151,7 @@ gulp.task('images-resize-small', () => {
         .pipe($.newer('static/images-resized/small/images'))
         .pipe($.print())
         .pipe($.imageResize({
-        width : 500,
+        width : 600,
         upscale : false
         }))
         .pipe(gulp.dest('static/images-resized/small/images'));
@@ -162,7 +162,7 @@ return gulp.src('static/images/**/*.{png,jpg,jpeg}')
     .pipe($.newer('static/images-resized/medium/images'))
     .pipe($.print())
     .pipe($.imageResize({
-    width : 1000,
+    width : 1400,
     upscale : false
     }))
     .pipe(gulp.dest('static/images-resized/medium/images'));
@@ -173,7 +173,7 @@ gulp.task('uploads-resize-small', () => {
         .pipe($.newer('static/images-resized/small/uploads'))
         .pipe($.print())
         .pipe($.imageResize({
-        width : 500,
+        width : 600,
         upscale : false
         }))
         .pipe(gulp.dest('static/images-resized/small/uploads'));
@@ -184,7 +184,7 @@ gulp.task('uploads-resize-medium', () => {
         .pipe($.newer('static/images-resized/medium/uploads'))
         .pipe($.print())
         .pipe($.imageResize({
-        width : 1000,
+        width : 1400,
         upscale : false
         }))
         .pipe(gulp.dest('static/images-resized/medium/uploads'));

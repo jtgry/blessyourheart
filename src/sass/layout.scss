@@ -43,8 +43,8 @@
 
 }
 .page-header{
-  height: 60vh;
-  min-height: 60vh;
+  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: table;
   background-repeat: no-repeat;
@@ -62,7 +62,10 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-top: $spacing-unit * 3;
+  margin-top: $spacing-unit * 4;
+  @media (max-width: $tablet) {
+    margin-top: $spacing-unit * 3;
+  }
   .page-title{
     font-size: 7rem;
     margin: 0;

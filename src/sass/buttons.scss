@@ -42,7 +42,9 @@ button{
 /* fancy Button */
 button.fancy-button,a.fancy-button {
   display: inline-block;
-  margin: 30px;
+  margin-top: $spacing-unit / 3;
+  margin-bottom: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2;
   font-family: $base-font-family;
   font-size: .9rem;
   letter-spacing: 0.03em;
@@ -51,8 +53,8 @@ button.fancy-button,a.fancy-button {
   position: relative;
   @media (max-width: $phone) {
     font-size: .9rem;
-    margin: 15px;
-    margin-left: 0;
+    margin-bottom: $spacing-unit / 3;
+    margin-right: $spacing-unit / 3;
   }
   span {
       display: inline-block;
