@@ -6,12 +6,12 @@ description: We are a mother daughter team specializing in farmhouse and french 
 blocks:
 - template: block-image
   heading: It All Began
-  content: Our story began when we fell in love with transforming vintage furniture.
+  content: "Our story began when we fell in love with transforming vintage furniture.
     The back porch became our workplace as we experimented with different painting
     techniques. We sold our items in booths that we rented in local antique malls.
-    The weather, along with strenuous trips to and from our little places of business
+    \n\nThe weather, along with strenuous trips to and from our little places of business
     began to wear on us, and wet our appetites to open a store of our own, so began
-    our journey to find the perfect venue.
+    our journey to find the perfect venue."
   image: uploads/amyandmelanie.jpg
   image_alignment: left
   button_text: 
@@ -28,6 +28,7 @@ blocks:
   image_alignment: right
   button_text: 
   button_url: 
+  overlay: true
 - template: block-image
   heading: Just The Begining
   content: Our furniture began to sell, but rather slowly and we saw a greater interest
@@ -39,6 +40,7 @@ blocks:
   image_alignment: right
   button_text: 
   button_url: 
+type: ''
 
 ---
 We were amazed at how quickly our business grew, and within 2 years, we needed more room. We asked the Lord for guidance, and a larger building became available. We had been looking in the windows of an old former hardware store just down the street, and had a vision of what could become a quaint, beautiful home décor store. After many weeks of cleaning, painting and refurbishing, Bless Your Heart reopened in September of 2017.
