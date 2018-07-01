@@ -38,7 +38,7 @@
       @include span(2/5);
       @media (max-width: $tablet) {
         @include stack();
-        margin-top: -8vh;
+        margin-top: -15vh;
     
       }
     }
@@ -80,7 +80,7 @@
       font-size: 4rem;
       letter-spacing: .01em;
       @media (max-width: $phone) {
-        font-size: 2rem;
+        font-size: 3rem;
       }
     }
     hr{
