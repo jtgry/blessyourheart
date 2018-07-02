@@ -12,6 +12,9 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: boolean
+  name: overlay
+  label: Overlay
 - name: description
   label: Description
   type: textarea
@@ -28,5 +31,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/store.md
 - content/story.md
 - content/_index.md
