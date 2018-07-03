@@ -47,7 +47,7 @@ blocks:
     a big event coming up that you’d like your home to be ready for, we would love
     the opportunity to design one wall to the entire home for you! We’ve included
     a gallery of some of the homes we’ve designed for you to see. '
-  image: images/interior1.jpg
+  image: uploads/olive.jpg
   image_alignment: right
   button_text: 
   button_url: 
@@ -66,3 +66,4 @@ blocks:
 type: page
 
 ---
+If decorating your own home is an overwhelming task for you, or you have a big event coming up that you’d like your home to be ready for, we would love the opportunity to design one wall to the entire home for you! We’ve included a gallery of some of the homes we’ve designed for you to see.
