@@ -69,13 +69,8 @@ blocks:
 
     We look forward to meeting you and hope that Bless Your Heart becomes your happy place too!
   heading: 'We love what we do! '
-  image: uploads/_DSC0731-2.jpg
+  image: uploads/_DSC0777-2.jpg
 type: ''
 overlay: false
 
 ---
-We continue to offer our customers decorating services… everything from a mantle or a wall to an entire home. We love hearing our customers say that the vision for their home has come true. Our home is our haven and needs to be a place of serenity. It is our desire to provide this for our customers.
-
-We’re so blessed to be a mother/daughter team, fulfilling our passion and serving others. Our store is our happy place!
-
-We look forward to meeting you and hope that Bless Your Heart becomes your happy place too!
