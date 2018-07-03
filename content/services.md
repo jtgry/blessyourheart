@@ -16,11 +16,11 @@ blocks:
     button_text: Learn More
     button_url: "/"
   - template: block-item
-    heading: In Home Design Services
+    heading: Home Design Services
     content: If decorating your own home is an overwhelming task for you, or you have
       a big event coming up that you’d like your home to be ready for, we would love
       the opportunity to design one wall to the entire home for you!
-    image: images/interior1.jpg
+    image: uploads/interior3.jpg
     button_text: Learn More
     button_url: "/"
   - template: block-item
