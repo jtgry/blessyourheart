@@ -5,6 +5,9 @@ fields:
 - type: text
   label: Heading
   name: heading
+- type: text
+  name: intro
+  label: Intro
 - type: textarea
   name: content
   label: Content
@@ -14,6 +17,3 @@ fields:
 - type: boolean
   name: overlay
   label: Overlay
-- type: text
-  name: intro
-  label: Intro
