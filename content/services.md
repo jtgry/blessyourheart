@@ -20,7 +20,7 @@ blocks:
     content: If decorating your own home is an overwhelming task for you, or you have
       a big event coming up that you’d like your home to be ready for, we would love
       the opportunity to design one wall to the entire home for you!
-    image: uploads/interior3.jpg
+    image: uploads/IMG_6533 2.jpg
     button_text: Learn More
     button_url: "/"
   - template: block-item
