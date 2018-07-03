@@ -8,6 +8,6 @@ fields:
 - type: textarea
   name: content
   label: Content
-- type: field_group_list
-  label: Items
+- type: blocks
   name: items
+  label: Items
