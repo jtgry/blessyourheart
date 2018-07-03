@@ -5,10 +5,10 @@ description: We are a mother daughter team specializing in farmhouse and french 
   decor and is passionate about making the vision for your home come true!
 blocks:
 - template: block-image
-  heading: Welcome
+  heading: Welcome!
   content: We are a mother daughter team specializing in farmhouse and french country
     decor and is passionate about making the vision for your home come true!
-  image: images/flowers.jpg
+  image: uploads/AmyandMelanie2.jpg
   image_alignment: left
   button_text: Learn More
   button_url: "/Shop"
@@ -29,6 +29,7 @@ blocks:
   button_text: Learn More
   button_url: "/Shop"
 type: page
+overlay: false
 
 ---
 We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!
