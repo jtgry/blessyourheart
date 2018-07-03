@@ -27,7 +27,7 @@ blocks:
     heading: Floral Design
     content: We offer custom floral design services, using the highest quality faux
       florals available.
-    image: uploads/IMG_6227.jpg
+    image: uploads/IMG_6225.jpg
     button_text: Learn More
     button_url: "/"
 - template: block-image
