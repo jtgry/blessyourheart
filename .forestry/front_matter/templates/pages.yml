@@ -33,6 +33,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/services.md
 - content/_index.md
 - content/story.md
 - content/store.md
