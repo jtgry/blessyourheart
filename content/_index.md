@@ -6,8 +6,10 @@ description: We are a mother daughter team specializing in farmhouse and french 
 blocks:
 - template: block-image
   heading: Welcome!
-  content: We are a mother daughter team specializing in farmhouse and french country
-    decor and is passionate about making the vision for your home come true!
+  content: We are a mother daughter team and we are passionate about home decor and
+    serving others! We love each and every one of our customers and want to help you
+    fulfill the vision for your home! Our store is our happy place! We look forward
+    to meeting you and hope that Bless Your Heart becomes your happy place too!
   image: uploads/AmyandMelanie2.jpg
   image_alignment: left
   button_text: Learn More
@@ -33,4 +35,3 @@ type: page
 overlay: false
 
 ---
- We specialize in farmhouse and french country decor, and also offer floral arranging and home decorating services! Our store is our happy place! We look forward to meeting you and hope that Bless Your Heart becomes your happy place too!
