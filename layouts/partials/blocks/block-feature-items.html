@@ -16,7 +16,7 @@
           {{- if .Params.items -}}
             {{ range .Params.items }}
               <div class="block-feature-item">
-                <img src="/{{ .image }}" alt="{{ .name }}">
+                <img src="/{{ .image }}" alt="{{ .heading }}">
                 <div class="container">
                   <h3>{{ .heading }}</h3>
                   {{ with .content }}
