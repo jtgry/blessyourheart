@@ -37,7 +37,7 @@ blocks:
     are and we want to help fulfill your vision with he decor available at Bless Your
     Heart. We encourage you to bring photos of areas of your home and we will offer
     recommendations to help design your space. '
-  image: images/flowers.jpg
+  image: uploads/interior4.jpg
   image_alignment: left
   button_text: 
   button_url: 
