@@ -18,7 +18,7 @@
               <div class="block-feature-item">
                 <img src="/{{ .image }}" alt="{{ .name }}">
                 <div class="container">
-                  <h3>{{ .name }}</h3>
+                  <h3>{{ .heading }}</h3>
                   {{ with .content }}
                   <p>{{ markdownify . }}</p>
                   {{ end }}
