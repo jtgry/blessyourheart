@@ -17,7 +17,7 @@ blocks:
   content: We began our business in October of 2015, and are so blessed to be fulfilling
     our passion and serving others. We love finding unique items for our store that
     can’t be found just anywhere!
-  image: uploads/_DSC0844.jpg
+  image: uploads/tulips.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
