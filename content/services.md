@@ -1,6 +1,6 @@
 ---
 title: Our Services
-image: uploads/_DSC0741.jpg
+image: uploads/_DSC0844.jpg
 description: We are a mother daughter team specializing in farmhouse and french country
   decor and is passionate about making the vision for your home come true!
 blocks:
