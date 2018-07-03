@@ -24,6 +24,8 @@ fields:
   label: Blocks
   name: blocks
   template_types:
+  - block-feature
+  - block-feature-items
   - block-image
 - name: type
   label: Type
