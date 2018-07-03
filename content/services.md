@@ -7,25 +7,24 @@ blocks:
 - template: "block-feature-items"
   heading:
   content: 
-  image: 
-  image_alignment: 
-  button_text:
-  button_url: 
   items:
-  - name: Home Decor
+  - template: "block-item"
+    name: Home Decor
     content: "Our home decor selection is one of the largest in the area, We carry many
     unique items that cannot be found anywhere else."
     image: "images/flowers.jpg"
     button_text: "Learn More"
     button_url: "/"
-  - name: In Home Design Services 
+  - template: "block-item"
+    name: In Home Design Services 
     content: "If decorating your own home is an overwhelming task for you, or you have
     a big event coming up that you’d like your home to be ready for, we would love
     the opportunity to design one wall to the entire home for you!"
     image: "images/interior1.jpg"
     button_text: "Learn More"
     button_url: "/"
-  - name: Floral Design
+  - template: "block-item"
+    name: Floral Design
     content: "We offer custom floral design services, using the highest quality faux florals available."
     image: "images/olive.jpg"
     button_text: "Learn More"
