@@ -24,7 +24,7 @@ blocks:
     doors during the annual Cotton Festival in October of 2015, meeting the sweet
     people of Eclectic for the first time.  Loving all things southern- we decided
     to name our store a phrase heard throughout the south, …Bless Your Heart.
-  image: uploads/amyandmelanie.jpg
+  image: uploads/blessyourheartexterior.jpg
   image_alignment: right
   button_text: 
   button_url: 
@@ -40,11 +40,20 @@ blocks:
   image_alignment: right
   button_text: 
   button_url: 
+- template: block-feature
+  image: uploads/blessyourheartexterior.jpg
+  content: We were amazed at how quickly our business grew, and within 2 years, we
+    needed more room. We asked the Lord for guidance, and a larger building became
+    available. We had been looking in the windows of an old former hardware store
+    just down the street, and had a vision of what could become a quaint, beautiful
+    home décor store. After many weeks of cleaning, painting and refurbishing, Bless
+    Your Heart reopened in September of 2017.
+  overlay: true
+  heading: We began to grow...
 type: ''
+overlay: false
 
 ---
-We were amazed at how quickly our business grew, and within 2 years, we needed more room. We asked the Lord for guidance, and a larger building became available. We had been looking in the windows of an old former hardware store just down the street, and had a vision of what could become a quaint, beautiful home décor store. After many weeks of cleaning, painting and refurbishing, Bless Your Heart reopened in September of 2017.
-
 Our Grand Opening was amazing, as many of our customers walked in our doors in awe of how the old hardware store had been transformed! Amy’s talent and experience in building homes and interior design compliments Melanie’s background in floral design and makes for a wonderful partnership. We added florals and our customers have loved it! Flowers bring the outdoors inside and the vibrant colors bring life to Bless Your Heart.
 
 It was our joy to find two very special ladies to work with us. Donna and Diane love people and are so talented. What a blessing they are! They make work fun!
