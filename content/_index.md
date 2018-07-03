@@ -25,7 +25,7 @@ blocks:
   heading: Our Services
   content: We are a mother daughter team specializing in farmhouse and french country
     decor and is passionate about making the vision for your home come true!
-  image: images/interior2.jpg
+  image: uploads/DiAnna_Paulk-blessyourheart-067.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/Shop"
