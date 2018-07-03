@@ -50,12 +50,20 @@ blocks:
     Your Heart reopened in September of 2017.
   overlay: true
   heading: We began to grow...
+- template: block-image
+  image_alignment: right
+  heading: Our Grand Opening
+  content: Our Grand Opening was amazing, as many of our customers walked in our doors
+    in awe of how the old hardware store had been transformed! Amy’s talent and experience
+    in building homes and interior design compliments Melanie’s background in floral
+    design and makes for a wonderful partnership. We added florals and our customers
+    have loved it! Flowers bring the outdoors inside and the vibrant colors bring
+    life to Bless Your Heart.
+  image: uploads/amy.jpg
 type: ''
 overlay: false
 
 ---
-Our Grand Opening was amazing, as many of our customers walked in our doors in awe of how the old hardware store had been transformed! Amy’s talent and experience in building homes and interior design compliments Melanie’s background in floral design and makes for a wonderful partnership. We added florals and our customers have loved it! Flowers bring the outdoors inside and the vibrant colors bring life to Bless Your Heart.
-
 It was our joy to find two very special ladies to work with us. Donna and Diane love people and are so talented. What a blessing they are! They make work fun!
 We continue to offer our customers decorating services… everything from a mantle or a wall to an entire home. We love hearing our customers say that the vision for their home has come true. Our home is our haven and needs to be a place of serenity. It is our desire to provide this for our customers.
 
