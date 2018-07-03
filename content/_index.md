@@ -23,8 +23,8 @@ blocks:
   button_url: "/Shop"
 - template: block-image
   heading: Our Services
-  content: We are a mother daughter team specializing in farmhouse and french country
-    decor and is passionate about making the vision for your home come true!
+  content: 'We specialize in farmhouse and french country home decor, and also offer
+    floral arranging and home decorating services! '
   image: uploads/DiAnna_Paulk-blessyourheart-067.jpg
   image_alignment: right
   button_text: Learn More
