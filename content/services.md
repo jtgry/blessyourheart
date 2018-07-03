@@ -12,7 +12,7 @@ blocks:
     heading: Home Decor
     content: Our home decor selection is one of the largest in the area, We carry
       many unique items that cannot be found anywhere else.
-    image: uploads/_DSC0743.jpg
+    image: uploads/IMG_6356.jpg
     button_text: Learn More
     button_url: "/"
   - template: block-item
@@ -27,7 +27,7 @@ blocks:
     heading: Floral Design
     content: We offer custom floral design services, using the highest quality faux
       florals available.
-    image: images/olive.jpg
+    image: uploads/IMG_6227.jpg
     button_text: Learn More
     button_url: "/"
 - template: block-image
