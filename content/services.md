@@ -61,6 +61,8 @@ blocks:
     the opportunity to design one wall to the entire home for you! We’ve included
     a gallery of some of the homes we’ve designed for you to see.
   image: uploads/IMG_7095-1.jpg
+  button_text: Gallery
+  button_url: "/home-design-services"
 type: page
 overlay: false
 
