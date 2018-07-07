@@ -30,7 +30,7 @@ blocks:
   image: uploads/DiAnna_Paulk-blessyourheart-067.jpg
   image_alignment: right
   button_text: Learn More
-  button_url: "/Shop"
+  button_url: "/services"
 type: page
 overlay: false
 
