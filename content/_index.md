@@ -21,8 +21,8 @@ blocks:
     can’t be found just anywhere!
   image: uploads/tulips.jpg
   image_alignment: right
-  button_text: Learn More
-  button_url: "/Shop"
+  button_text: ''
+  button_url: ''
 - template: block-image
   heading: Our Services
   content: 'We specialize in farmhouse and french country home decor, and also offer
