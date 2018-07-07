@@ -17,3 +17,6 @@ fields:
 - type: boolean
   name: overlay
   label: Overlay
+- type: text
+  name: button_text
+  label: Button Text
