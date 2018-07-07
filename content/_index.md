@@ -13,7 +13,7 @@ blocks:
   image: uploads/AmyandMelanie2.jpg
   image_alignment: left
   button_text: Learn More
-  button_url: "/Shop"
+  button_url: "/story"
 - template: block-feature
   heading: Our Passion
   content: We began our business in October of 2015, and are so blessed to be fulfilling
