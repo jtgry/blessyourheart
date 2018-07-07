@@ -24,9 +24,10 @@ fields:
   label: Blocks
   name: blocks
   template_types:
+  - block-image
   - block-feature
   - block-feature-items
-  - block-image
+  - block-gallery
 - name: type
   label: Type
   type: text
