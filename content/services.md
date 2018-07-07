@@ -33,10 +33,10 @@ blocks:
 - template: block-image
   heading: Home Decor
   content: 'Our home decor selection is one of the largest in the area, We carry many
-    unique items that cannot be found anywhere else. You home should reflect who you
-    are and we want to help fulfill your vision with he decor available at Bless Your
-    Heart. We encourage you to bring photos of areas of your home and we will offer
-    recommendations to help design your space. '
+    unique items that cannot be found anywhere else. Your home should reflect who
+    you are, and we want to help fulfill your vision with the decor available at Bless
+    Your Heart. We encourage you to bring photos of areas of your home and we will
+    offer recommendations to help design your space. '
   image: uploads/_DSC0121.jpg
   image_alignment: left
   button_text: 
