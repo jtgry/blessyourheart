@@ -54,9 +54,10 @@ window.onload = function () {
       if (hasClass(mobileNav, 'load')) {
         removeClass(mobileNav, 'load');
         addClass(mobileNav, 'exit');
-        sleep(200).then(() => {
+        var myFunction = function(){
           addClass(mobileNav, 'hidden');
-        })
+        };
+        setTimeout(myFunction, 500);
         
       } else {
         removeClass(mobileNav, 'exit');
