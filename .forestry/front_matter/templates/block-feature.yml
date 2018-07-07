@@ -20,3 +20,6 @@ fields:
 - type: text
   name: button_text
   label: Button Text
+- type: text
+  name: button_url
+  label: Button URL
