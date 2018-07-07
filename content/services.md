@@ -53,17 +53,14 @@ blocks:
   image_alignment: right
   button_text: 
   button_url: 
-- template: block-feature
-  heading: In Home Design Services
-  intro: ''
+- template: block-image
+  image_alignment: left
+  heading: Home Design Services
   content: If decorating your own home is an overwhelming task for you, or you have
     a big event coming up that you’d like your home to be ready for, we would love
     the opportunity to design one wall to the entire home for you! We’ve included
     a gallery of some of the homes we’ve designed for you to see.
-  image: uploads/flower.jpg
-  image_alignment: right
-  button_text: Gallery
-  button_url: 
+  image: uploads/IMG_7095-1.jpg
 type: page
 overlay: false
 
