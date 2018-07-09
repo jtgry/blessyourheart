@@ -5,18 +5,18 @@
           <div class="container">
             {{- with .Params.heading -}}
             <h2>{{ markdownify . }}</h2>
-            <hr />
             {{ end }}
             {{- with .Params.content -}}
             <p>{{ markdownify . }}</p>
             {{- end -}}
           </div>
-          </div>
+        </div>
         <div class="wrapper">
           {{- if .Params.gallery -}}
             {{ range .Params.gallery }}
+            {{ $image := (resources.Get .).Fill "600x500" }}
               <div class="block-gallery-item">
-                <img src="/{{ .image }}" alt="{{ .name }}">
+                <img src="{{ $image.RelPermalink }}">
               </div>
             {{ end }}
           {{ end }}

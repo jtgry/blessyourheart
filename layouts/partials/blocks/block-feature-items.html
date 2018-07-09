@@ -9,14 +9,14 @@
             {{- with .Params.content -}}
             <p>{{ markdownify . }}</p>
             {{- end -}}
-
           </div>
-          </div>
+        </div>
         <div class="wrapper">
           {{- if .Params.items -}}
             {{ range .Params.items }}
+            {{ $image := (resources.Get .image).Fill "600x500" }}
               <div class="block-feature-item">
-                <img src="/{{ .image }}" alt="{{ .heading }}">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .heading }}">
                 <div class="container">
                   <h3>{{ .heading }}</h3>
                   {{ with .content }}

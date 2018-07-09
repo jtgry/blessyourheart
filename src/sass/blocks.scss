@@ -32,15 +32,13 @@
     height: 60vw;
 
   }
-  &.left{
-    &:first-of-type {
-      margin-top: -20vh;
-      @include span(2/5);
-      @media (max-width: $tablet) {
-        @include stack();
-        margin-top: -15vh;
-    
-      }
+  &.shift-up{
+    margin-top: -20vh;
+    @include span(2/5);
+    @media (max-width: $tablet) {
+      @include stack();
+      margin-top: -15vh;
+  
     }
   }
 }
@@ -391,4 +389,15 @@
       width: 100%;
     }
   }
+}
+.block-gallery-item{
+  box-shadow: $box-shadow;
+  @include column(1/4, $cycle: 4);
+  margin-bottom: $spacing-unit;
+  img{
+    height: 40vh;
+    width: auto;
+
+  }
+
 }

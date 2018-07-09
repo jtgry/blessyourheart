@@ -4,6 +4,11 @@ title = "Bless Your Heart"
 
 enableRobotsTXT = true
 disableAliases = true
+assetDir = "static"
+
+[imaging]
+quality = 90
+anchor = "center"
 
 # add redirects/headers
 [outputs]
