@@ -1,0 +1,21 @@
+{{ if .Params.image }}
+{{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
+<header class="page-header fade-in" style="background-image: url({{ $image.RelPermalink }});">
+{{ else }}
+<header class="page-header fade-in" style="background-image: url(/images/flower.jpg);">
+{{ end }}
+{{ if eq .Params.overlay true }}
+<div class="page-header-overlay"></div>
+{{ end }}
+  <div class="page-header-content fade-in-slow">
+    <div class="container">
+      <div class="post">
+        <h3>{{ .Date.Format "Jan 2, 2006"}}</h3>
+        <hr>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h4>Written by <b>{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</b></h4>
+      </div>
+
+    </div>
+  </div>
+</header>

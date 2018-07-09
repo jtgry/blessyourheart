@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ block "post-header" . }}{{ partial "site/post-header.html" . }}{{ end }}
+  <article class="page">
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
