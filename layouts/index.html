@@ -1,5 +1,6 @@
 {{ define "main" }}
-<section class="home-banner" style="background-image: url({{ .Params.image }});">
+{{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
+<section class="home-banner" style="background-image: url({{ $image.RelPermalink }});">
   <div class="vertical">
     <div class="home-banner-content">
       <div class="container fade-in">

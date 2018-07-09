@@ -1,6 +1,7 @@
 .blocks{
   width: 94%;
   margin: 3%;
+  display: inline-block;
 }
 .block-section{
   display: inline-block;
@@ -125,9 +126,9 @@
   width: 106%;
   margin-left: -3%;
   display: table;
-  min-height: 40vh;
-  max-height: 40vh;
-  height: 40vh;
+  min-height: 50vh;
+  max-height: 50vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
