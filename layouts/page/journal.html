@@ -4,7 +4,7 @@
     <div class="container">
       {{ range .Paginator.Pages }}
         <div class="post">
-          {{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
+          {{ $image := (resources.Get .Params.image).Fill "1200x600" }}
           <h3>{{ .Date.Format "Jan 2, 2006"}}</h3>
           <hr>
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

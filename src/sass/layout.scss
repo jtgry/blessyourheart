@@ -43,6 +43,9 @@
   margin-top: $spacing-unit / 2;
   z-index: $height-middle;
   position: relative;
+  @media (max-width: $tablet) {
+    padding: $spacing-unit / 2 0;
+  }
 }
 .page-header{
   height: 60vh;
@@ -94,8 +97,16 @@
 
 .post{
   padding: $spacing-unit $spacing-unit;
+  @media (max-width: $tablet) {
+    padding: 0;
+  }
   margin-bottom: $spacing-unit / 2;
-  text-align: center;
+  h2{
+    text-align: center;
+    @media (max-width: $phone) {
+      font-size: 2rem;
+    }
+  }
   h3{
     text-align: center;
     font-size: .8rem;
@@ -107,6 +118,7 @@
     text-align: center;
     font-size: 1rem;
     color: $color-grey-dark;
+    margin-bottom: $spacing-unit;
     b{
       color: $color-brand;
     }
@@ -123,5 +135,10 @@
     margin-bottom: $spacing-unit;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
+    @media (max-width: $phone) {
+      min-width: 100%;
+      margin: 0;
+      margin-bottom: $spacing-unit / 2;
+    }
   }
 }

@@ -312,6 +312,7 @@
   width: 100%;
   box-shadow: $box-shadow-alt;
   border-radius: $border-radius;
+
   .block-map-image{
     background: $color-grey-light;
     width: 100%;
@@ -335,6 +336,7 @@
       min-height: 40vw;
       max-height: 40vw;
       height: 40vw;
+
     }
   }
   .block-map-content{
@@ -354,6 +356,9 @@
       max-height: 40vw;
       height: 40vw;
       display: table;
+      border-radius: 0;
+      border-top-right-radius: $border-radius;
+      border-top-left-radius: $border-radius;
     }
     .block-map-content-item{
       @include stack();
