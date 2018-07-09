@@ -95,16 +95,21 @@
 .post{
   padding: $spacing-unit $spacing-unit;
   margin-bottom: $spacing-unit / 2;
-  h2{
-    text-align: center;
-  }
+  text-align: center;
   h3{
     text-align: center;
-    font-size: 1.4rem;
+    font-size: .8rem;
+    font-family: $base-font-family;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   h4{
     text-align: center;
     font-size: 1rem;
+    color: $color-grey-dark;
+    b{
+      color: $color-brand;
+    }
   }
   hr{
     border-bottom: .1em solid $color-grey-light;
@@ -116,6 +121,7 @@
     margin-left: -20%;
     box-shadow: $box-shadow-alt;
     margin-bottom: $spacing-unit;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
   }
-  box-shadow: $box-shadow;
 }

@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka');
 @font-face {
     font-family: 'Montserrat';
-    src: url('/fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
-        url('/fonts/montserrat/Montserrat-Regular.woff') format('woff');
+    src: url('/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
 }
 
 @font-face {
@@ -20,7 +27,7 @@
 // Our variables
 $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 600;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
@@ -41,7 +48,7 @@ $color-grey-light: lighten($color-grey, 10%);
 $color-grey-dark:  darken($color-grey, 20%);
 
 $border-radius: .4em;
-$box-shadow: 0px 0px 15px rgba(0,0,0,0.15), 0px 0px 4px rgba(0,0,0,0.1);
+$box-shadow: 1px 2px 15px rgba(0,0,0,.1);
 $box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
 $height-bottom: 100;
 $height-middle: 200;
