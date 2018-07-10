@@ -22,7 +22,7 @@ blocks:
       the opportunity to design one wall to the entire home for you!
     image: uploads/IMG_7104.jpg
     button_text: Learn More
-    button_url: "/"
+    button_url: "/home-design-services"
   - template: block-item
     heading: Floral Design
     content: We offer custom floral design services, using the highest quality faux
