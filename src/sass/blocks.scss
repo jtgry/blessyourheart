@@ -403,22 +403,23 @@
   }
 }
 .block-gallery-item{
-  box-shadow: $box-shadow;
-  margin-bottom: $spacing-unit / 2;
-  &:hover{
-    transform: scale(1.02);
-    box-shadow: $box-shadow-alt;
+
+  a{
+    box-shadow: $box-shadow;
+    margin-bottom: $spacing-unit / 2;
+    display: block;
+    &:hover{
+      transform: scale(1.02);
+      box-shadow: $box-shadow-alt;
+    }
+    img{
+      min-width: 100%;
+      width: auto;
+    }
   }
   @include column(1/4, $cycle: 4);
   @media (max-width: $tablet) {
     @include column(1/2, $cycle: 2);
 
   }
-  img{
-    min-width: 100%;
-    width: auto;
-
-  }
-  
-
 }

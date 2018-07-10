@@ -44,8 +44,8 @@ window.onload = function () {
     sr.reveal('.block-content', {origin: 'bottom', delay: 2, duration: 800});
     sr.reveal('.block-feature-content', {origin: 'bottom', delay: 2, duration: 600});
     sr.reveal('.block-image', {origin: 'bottom', duration: 600 });
-
-
+    sr.reveal('.block-gallery-item', {origin: 'bottom', duration: 600 }, 200);
+    
     var menuButton = document.getElementById('navButton');
     var mobileNav = document.getElementById('mobile-nav');
     menuButton.addEventListener('click', function (e) {

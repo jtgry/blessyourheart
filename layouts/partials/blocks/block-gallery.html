@@ -17,9 +17,11 @@
             {{ range .Params.gallery }}
             {{ $imageSmall := (resources.Get .).Fill "600x800" }}
             {{ $imageLarge := (resources.Get .).Fill "1000x1200" }}
-              <a href="{{ $imageLarge.RelPermalink }}" class="block-gallery-item">
+            <div class="block-gallery-item">
+              <a href="{{ $imageLarge.RelPermalink }}">
                 <img src="{{ $imageSmall.RelPermalink }}">
               </a>
+            </div>
             {{ end }}
           {{ end }}
         </div>
