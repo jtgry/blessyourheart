@@ -16,6 +16,7 @@ blocks:
   image_alignment: left
   button_text: 
   button_url: 
+  shift_image: true
 - template: block-feature
   heading: A Place To Call Home
   content: We chose the town of Eclectic because it was half way between our homes
