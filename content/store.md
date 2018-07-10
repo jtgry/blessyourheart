@@ -12,6 +12,7 @@ blocks:
   image_alignment: left
   button_text: Learn More
   button_url: "/Shop"
+  shift_image: true
 - template: block-feature
   heading: Welcome To Bless Your Heart
   content: We are a mother daughter team specializing in farmhouse and french country
@@ -29,5 +30,6 @@ blocks:
   button_text: Learn More
   button_url: "/Shop"
 overlay: true
+type: ''
 
 ---
