@@ -14,6 +14,7 @@ blocks:
   image_alignment: left
   button_text: Learn More
   button_url: "/story"
+  shift_image: true
 - template: block-feature
   heading: Our Passion
   content: We began our business in October of 2015, and are so blessed to be fulfilling
