@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ block "page-header" . }}{{ partial "site/page-header.html" . }}{{ end }}
-{{ block "map" . }}{{ partial "site/map.html" . }}{{ end }}
+<div class="blocks">
+  {{ block "map" . }}{{ partial "site/map.html" . }}{{ end }}
+</div>
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
 
 {{ end }}

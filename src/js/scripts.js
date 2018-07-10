@@ -1,3 +1,4 @@
+
 function hasClass(ele,cls) {
   return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
 }
@@ -74,6 +75,7 @@ var myElement = document.querySelector("#main-nav");
 var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
+baguetteBox.run('.gallery');
 };
 
 

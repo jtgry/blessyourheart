@@ -5,19 +5,21 @@
           <div class="container">
             {{- with .Params.heading -}}
             <h2>{{ markdownify . }}</h2>
+            <hr />
             {{ end }}
             {{- with .Params.content -}}
             <p>{{ markdownify . }}</p>
             {{- end -}}
           </div>
         </div>
-        <div class="wrapper">
+        <div class="gallery">
           {{- if .Params.gallery -}}
             {{ range .Params.gallery }}
-            {{ $image := (resources.Get .).Fill "600x500" }}
-              <div class="block-gallery-item">
-                <img src="{{ $image.RelPermalink }}">
-              </div>
+            {{ $imageSmall := (resources.Get .).Fill "600x800" }}
+            {{ $imageLarge := (resources.Get .).Fill "1000x1200" }}
+              <a href="{{ $imageLarge.RelPermalink }}" class="block-gallery-item">
+                <img src="{{ $imageSmall.RelPermalink }}">
+              </a>
             {{ end }}
           {{ end }}
         </div>
