@@ -3,7 +3,7 @@ author = "Amy Hibbs"
 categories = []
 date = "2018-07-02T02:18:10+00:00"
 image = "uploads/_DSC0731-2.jpg"
-overlay = false
+overlay = true
 title = "Our Story"
 
 +++
