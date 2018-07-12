@@ -1,7 +1,7 @@
 +++
 date = "2018-07-07T01:48:53+00:00"
 description = ""
-image = "uploads/_DSC0741.jpg"
+image = ""
 overlay = false
 title = "Home Design Services"
 type = ""
@@ -13,8 +13,10 @@ template = "block-gallery"
 [[blocks]]
 button_text = "Contact Us"
 button_url = "/contact"
-image = "uploads/_DSC0844.jpg"
-intro = "Please contact us for more information concerning our design services. "
-template = "block-feature"
+content = "Please contact us for more information concerning our design services. "
+heading = "Interestin in having us design your home?"
+image = "uploads/_DSC0014.jpg"
+image_alignment = "left"
+template = "block-image"
 
 +++
