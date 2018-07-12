@@ -10,7 +10,7 @@ sections:
 - path: content/journal
   label: Journal
   create: all
-    templates:
+  templates:
   - post
 upload_dir: static/uploads
 public_path: uploads
