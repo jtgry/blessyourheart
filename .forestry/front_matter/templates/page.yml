@@ -35,9 +35,9 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/home-design-services.md
 - content/services.md
 - content/store.md
-- content/home-design-services.md
 - content/story.md
 - content/_index.md
 - content/home-decor.md
