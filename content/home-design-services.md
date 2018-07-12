@@ -15,7 +15,7 @@ button_text = "Contact Us"
 button_url = "/contact"
 content = "Please contact us for more information concerning our design services. "
 heading = "Interestin in having us design your home?"
-image = "uploads/_DSC0014.jpg"
+image = "uploads/_DSC0743.jpg"
 image_alignment = "left"
 template = "block-image"
 
