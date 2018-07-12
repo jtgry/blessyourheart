@@ -23,4 +23,3 @@ fields:
   type: boolean
   hidden: false
   default: true
-
