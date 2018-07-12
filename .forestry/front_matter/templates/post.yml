@@ -13,6 +13,9 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: boolean
+  name: overlay
+  label: Overlay
 - name: date
   label: Date
   type: datetime
