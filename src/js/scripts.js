@@ -23,6 +23,17 @@ function sleep(milliseconds) {
   }
 }
 
+var feed = new Instafeed({
+  get: 'user',
+  userId: '2923101612',
+  clientId: '86cf11df1958430484c96f4b0e823b73',
+  accessToken: '2923101612.1677ed0.7948f055fe3e4e0cb89dc19982633976',
+  template: '<a class="block-instagram" style="background-image: url({{image}});" href="{{link}}"></a>',
+  sortBy: 'most-recent',
+  limit: '8',
+  resolution: 'standard_resolution'
+});
+feed.run();
 
 window.onload = function () {
 	// good to go!
@@ -47,6 +58,7 @@ window.onload = function () {
     sr.reveal('.block-gallery-item', {origin: 'bottom', duration: 600 }, 200);
     sr.reveal('.post', {origin: 'bottom', duration: 600});
     sr.reveal('.page', {origin: 'bottom', duration: 800});
+    sr.reveal('.block-instagram', {origin: 'bottom', scale: 1, duration: 600 }, 200);
     
     var menuButton = document.getElementById('navButton');
     var mobileNav = document.getElementById('mobile-nav');

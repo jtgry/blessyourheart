@@ -22,7 +22,7 @@
 {{- if eq .template "block-feature-items" -}}{{ partial "blocks/block-feature-items" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 
-
+{{ block "instafeed" . }}{{ partial "site/instafeed.html" . }}{{ end }}
 {{ block "map" . }}{{ partial "site/map.html" . }}{{ end }}
 {{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
 </div>
