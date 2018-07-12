@@ -21,5 +21,15 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: select
+  name: author
+  config:
+    source:
+      type: simple
+    options:
+    - Amy Hibbs
+    - Melanie Evans
+    - Lauren Gray
+  label: Author
 pages:
 - content/journal/welcome-to-our-new-website.md
