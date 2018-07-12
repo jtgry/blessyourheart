@@ -1,8 +1,7 @@
 ---
 title: Our Store
-image: uploads/interior4.jpg
-description: We are a mother daughter team specializing in farmhouse and french country
-  decor and is passionate about making the vision for your home come true!
+image: uploads/_DSC0743.jpg
+description: 'Our store is coming very soon! Please continue to check back for updates! '
 blocks:
 - template: block-image
   heading: Welcome

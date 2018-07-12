@@ -36,8 +36,8 @@ fields:
   default: ''
 pages:
 - content/home-design-services.md
-- content/services.md
 - content/store.md
+- content/services.md
 - content/story.md
 - content/_index.md
 - content/home-decor.md
