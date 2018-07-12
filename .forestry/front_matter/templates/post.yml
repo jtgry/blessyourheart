@@ -1,5 +1,5 @@
 ---
-label: journal
+label: post
 hide_body: false
 is_partial: false
 fields:
@@ -23,3 +23,15 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: select
+  name: author
+  config:
+    source:
+      type: simple
+    options:
+    - Amy Hibbs
+    - Melanie Evans
+    - Lauren Gray
+  label: Author
+pages:
+- content/journal/welcome-to-our-new-website.md
