@@ -13,9 +13,9 @@ template = "block-gallery"
 [[blocks]]
 button_text = "Contact Us"
 button_url = "/contact"
-content = "Please contact us for more information concerning our design services. "
-heading = "Interestin in having us design your home?"
-image = "uploads/_DSC0743.jpg"
+content = "Please contact us for more information and let us know how we can help you! "
+heading = "Ready to begin?"
+image = "uploads/_DSC0777-2.jpg"
 image_alignment = "left"
 template = "block-image"
 
