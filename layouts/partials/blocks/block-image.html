@@ -1,4 +1,4 @@
-<section class="block-section">
+<section class="block-section" id="{{ urlize .Params.heading }}">
   {{- if .Params.image -}}
   {{ $image := (resources.Get .Params.image).Fill "1000x800" }}
   <div alt="{{ .Params.heading }}" class="block-image {{ .Params.image_alignment }}{{ if eq .Params.shift_image true }} shift-up{{ end }}" style="background-image:url({{ $image.RelPermalink }});">

@@ -14,7 +14,7 @@ blocks:
       many unique items that cannot be found anywhere else.
     image: uploads/IMG_6356.jpg
     button_text: Learn More
-    button_url: "/"
+    button_url: "#home-decor"
   - template: block-item
     heading: Home Design Services
     content: If decorating your own home is an overwhelming task for you, or you have
@@ -29,7 +29,7 @@ blocks:
       florals available.
     image: uploads/IMG_6225.jpg
     button_text: Learn More
-    button_url: "/"
+    button_url: "#floral-arranging"
 - template: block-image
   heading: Home Decor
   content: 'Our home decor selection is one of the largest in the area, We carry many
@@ -61,7 +61,7 @@ blocks:
     the opportunity to design one wall to the entire home for you! We’ve included
     a gallery of some of the homes we’ve designed for you to see.
   image: uploads/IMG_7095-1.jpg
-  button_text: Gallery
+  button_text: Learn More
   button_url: "/home-design-services"
 type: page
 overlay: false
