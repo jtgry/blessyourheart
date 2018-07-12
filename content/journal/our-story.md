@@ -3,8 +3,9 @@ author = "Amy Hibbs"
 categories = []
 date = "2018-07-02T02:18:10+00:00"
 image = "uploads/_DSC0731-2.jpg"
+overlay = false
 title = "Our Story"
-overlay = "true"
+
 +++
 Our story began when we fell in love with transforming vintage  furniture. The back porch became our workplace as we experimented with  different painting techniques. We sold our items in booths that we  rented in local antique malls.
 
