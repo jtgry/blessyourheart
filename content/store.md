@@ -1,8 +1,11 @@
 ---
 title: Our Store
 image: uploads/_DSC0743.jpg
-description: 'Our store is coming very soon! Please continue to check back for updates! '
-blocks: []
+description: ''
+blocks:
+- template: block-feature-items
+  heading: 'Coming Soon! '
+  content: 'Our online store is coming very soon! Please check back for updates! '
 overlay: true
 type: ''
 
