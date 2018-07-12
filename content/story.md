@@ -12,7 +12,7 @@ blocks:
     \n\nThe weather, along with strenuous trips to and from our little places of business
     began to wear on us, and wet our appetites to open a store of our own, so began
     our journey to find the perfect venue."
-  image: uploads/amyandmelanie.jpg
+  image: uploads/AmyandMelanie3.jpg
   image_alignment: left
   button_text: 
   button_url: 
