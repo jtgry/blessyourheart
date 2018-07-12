@@ -69,7 +69,7 @@ blocks:
     We’re so blessed to be a mother/daughter team, fulfilling our passion and serving others. Our store is our happy place!
 
     We look forward to meeting you and hope that Bless Your Heart becomes your happy place too!
-  heading: 'We love what we do! '
+  heading: 'We Love What We Do! '
   image: uploads/_DSC0777-2.jpg
 type: ''
 overlay: false
