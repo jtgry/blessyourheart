@@ -56,7 +56,7 @@ window.onload = function () {
     sr.reveal('.block-feature-content', {origin: 'bottom', delay: 2, duration: 600});
     sr.reveal('.block-image', {origin: 'bottom', duration: 600 });
     sr.reveal('.block-gallery-item', {origin: 'bottom', duration: 600 }, 200);
-    sr.reveal('.post', {origin: 'bottom', duration: 600});
+    sr.reveal('.post-wrapper', {origin: 'bottom', duration: 600});
     sr.reveal('.page', {origin: 'bottom', duration: 800});
     sr.reveal('.block-instagram', {origin: 'bottom', scale: 1, duration: 600 }, 200);
     

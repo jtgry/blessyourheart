@@ -48,8 +48,8 @@
   }
 }
 .page-header{
-  height: 60vh;
-  min-height: 60vh;
+  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: table;
   background-repeat: no-repeat;
@@ -78,6 +78,7 @@
 .page-header-content{
   width: 100%;
   margin: 0 auto;
+  margin-top: $spacing-unit;
   text-align: center;
 
   .page-title{
@@ -94,11 +95,13 @@
 
 .post{
   padding: $spacing-unit $spacing-unit;
+  display: inline-block;
   @media (max-width: $tablet) {
     padding: 0;
   }
   margin-bottom: $spacing-unit / 2;
   h2{
+    font-size: 4rem;
     text-align: center;
     @media (max-width: $phone) {
       font-size: 2rem;
@@ -115,7 +118,7 @@
     text-align: center;
     font-size: 1rem;
     color: $color-grey-dark;
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit / 2;
     b{
       color: $color-brand;
     }
@@ -128,10 +131,13 @@
     margin: $spacing-unit / 2 0;
     min-width: 140%;
     margin-left: -20%;
-    box-shadow: $box-shadow-alt;
+    box-shadow: $box-shadow;
     margin-bottom: $spacing-unit;
     border-radius: $border-radius;
-    box-shadow: $box-shadow;
+    -webkit-transition: all .4s ease-out; /* Saf3.2+, Chrome */
+    -moz-transition: all .4s ease-out; /* FF3.7+ */
+    -o-transition: all .4s ease-out;/* Opera 10.5 */
+    transition: all .4s ease-out;
     @media (max-width: $phone) {
       min-width: 100%;
       margin: 0;
