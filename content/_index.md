@@ -28,7 +28,7 @@ blocks:
   heading: Our Services
   content: 'We specialize in farmhouse and french country home decor, and also offer
     floral arranging and home decorating services! '
-  image: uploads/_DSC0014.jpg
+  image: uploads/_DSC0566.jpg
   image_alignment: right
   button_text: Learn More
   button_url: "/services"
