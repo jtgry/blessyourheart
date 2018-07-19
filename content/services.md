@@ -49,7 +49,7 @@ blocks:
     We love to see out customers leave with their own custom floral pieces designed just for their homes. We have beautiful containers of all sizes, shapes, and colors or you could bring your own. Our floral selection consists of the highest quality faux florals available, with a large selection of colors, styles, and species of florals and greenery.
 
     Melanie is a trained floral designer with 35 years of experience, and she will work with you to make your vision come true.
-  image: uploads/DiAnna_Paulk-blessyourheart-065.jpg
+  image: uploads/_DSC0566.jpg
   image_alignment: right
   button_text: 
   button_url: 
