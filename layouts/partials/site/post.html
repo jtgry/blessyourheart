@@ -1,11 +1,16 @@
 <div class="post-wrapper">
-  <a class="post" href="{{ .Permalink }}">
+  <div class="post">
     {{ $image := (resources.Get .Params.image).Fill "1200x600" }}
     <h3>{{ .Date.Format "Jan 2, 2006"}}</h3>
     <hr>
     <h2>{{ .Title }}</h2>
     <h4>Written by <b>{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</b></h4>
     <img src="{{ $image.RelPermalink }}" alt="">
-    <p>{{ .Summary }}</p>
-  </a>
+    {{ if .Params.post_summary }}
+    {{ .Params.post_summary | markdownify }}
+    {{ else }}
+      <p>{{ .Summary }}</p>
+    {{ end}}
+    <a href="{{ .Permalink }}" class="fancy-button bg2"><span>Read More</span></a>
+  </div>
 </div>
