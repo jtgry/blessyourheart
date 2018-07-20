@@ -10,7 +10,7 @@ blocks:
     The back porch became our workplace as we experimented with different painting
     techniques. We sold our items in booths that we rented in local antique malls.
     \n\nThe weather, along with strenuous trips to and from our little places of business
-    began to wear on us, and wet our appetites to open a store of our own, so began
+    began to wear on us, and whet our appetites to open a store of our own, so began
     our journey to find the perfect venue."
   image: uploads/AmyandMelanie3.jpg
   image_alignment: left
