@@ -4,13 +4,15 @@ categories = []
 date = "2018-07-02T02:18:10+00:00"
 image = "uploads/_DSC0731-2.jpg"
 overlay = true
+post_summary = "Our story began when we fell in love with transforming vintage  furniture. The back porch became our workplace as we experimented with  different painting techniques. We sold our items in booths that we  rented in local antique malls.\n\nThe weather, along with strenuous trips to and from our little places  of business began to wear on us, and wet our appetites to open a store  of our own, so began our journey to find the perfect venue.\n\nWe chose the town of Eclectic because it was half way between our homes  in Wetumpka and Lake Martin. A former little post office building had  just become available to rent and after lots of prayer, we took the plunge! "
 title = "Our Story"
+
 +++
 Our story began when we fell in love with transforming vintage  furniture. The back porch became our workplace as we experimented with  different painting techniques. We sold our items in booths that we  rented in local antique malls.
 
 The weather, along with strenuous trips to and from our little places  of business began to wear on us, and wet our appetites to open a store  of our own, so began our journey to find the perfect venue.
 
-We chose the town of Eclectic because it was half way between our homes  in Wetumpka and Lake Martin. A former little post office building had  just become available to rent and after lots of prayer, we took the  plunge! We opened our doors during the annual Cotton Festival in October  of 2015, meeting the sweet people of Eclectic for the first time.   Loving all things southern- we decided to name our store a phrase heard  throughout the south, …Bless Your Heart.
+We chose the town of Eclectic because it was half way between our homes  in Wetumpka and Lake Martin. A former little post office building had  just become available to rent and after lots of prayer, we took the plunge! We opened our doors during the annual Cotton Festival in October  of 2015, meeting the sweet people of Eclectic for the first time.   Loving all things southern- we decided to name our store a phrase heard  throughout the south, …Bless Your Heart.
 
 Our furniture began to sell, but rather slowly and we saw a greater  interest in our Farmhouse and French country decor. We crafted and  repurposed most of our items, but quickly realized that we could no  longer keep up with the demand. We discovered the Atlanta market and  spent lots of time searching for unique items that couldn’t be found in  just any store.
 
