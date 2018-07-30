@@ -42,8 +42,7 @@ window.onload = function () {
   window.sr = ScrollReveal({
     delay: 1,
     scale: 0.99,
-    viewFactor: 0.4,
-    distance: "2em"
+    viewFactor: 0.1
   });
     
     sr.reveal('.home-banner-item', {origin: 'bottom', duration: 600});
