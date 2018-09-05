@@ -39,3 +39,7 @@ fields:
     - Melanie Evans
     - Lauren Gray
   label: Author
+pages:
+- content/journal/our-story.md
+- content/journal/_index.md
+- content/journal/welcome-to-our-new-website.md
