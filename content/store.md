@@ -8,5 +8,6 @@ blocks:
   content: 'Our online store is coming very soon! Please check back for updates! '
 overlay: true
 type: ''
+draft: true
 
 ---
