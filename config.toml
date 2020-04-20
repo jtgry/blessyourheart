@@ -1,16 +1,35 @@
 baseURL = "/"
-languageCode = "en-gb"
-title = "Bless Your Heart"
-
-enableRobotsTXT = true
 disableAliases = true
-assetDir = "static"
-
+enableRobotsTXT = true
+languageCode = "en-us"
+metaDataFormat = "yaml"
+title = "Bless Your Heart"
 googleAnalytics = "UA-118254944-1"
 
 [imaging]
-quality = 90
 anchor = "center"
+quality = 90
+[markup]
+[markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
 
 [params]
 description = "We are a mother daughter team specializing in farmhouse and french country decor and is passionate about making the vision for your home come true!"
@@ -22,22 +41,14 @@ pinterest = "https://www.pinterest.com/blessyourhearto/"
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
-# remove .{ext} from text/netlify
-[mediaTypes."text/netlify"]
-suffix = ""
-delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
 [outputFormats.HEADERS]
-mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
 notAlternative = true
 

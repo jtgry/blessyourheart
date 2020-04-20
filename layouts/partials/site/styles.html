@@ -1,1 +1,3 @@
-<link rel="stylesheet" href="/css/app.css">
+{{ $base := resources.Get "sass/app.scss" | toCSS | minify | fingerprint | postCSS (dict "config" "postcss.config.js") }}
+
+<link rel="stylesheet" href="{{ $base.Permalink }}" async />

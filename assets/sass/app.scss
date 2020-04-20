@@ -1,0 +1,112 @@
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins/poppins-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins/poppins-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+       url('../fonts/poppins/poppins-v9-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins/poppins-v9-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+       url('../fonts/poppins/poppins-v9-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins/poppins-v9-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/playfair/playfair-display-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair/playfair-display-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'yulinda_script';
+    src: url('/fonts/yulinda/yulinda_script_demo-webfont.woff2') format('woff2'),
+         url('/fonts/yulinda/yulinda_script_demo-webfont.woff') format('woff'),
+         url('/fonts/yulinda/yulinda_script_demo-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+// Our variables
+$base-font-family: 'Poppins', sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$alt-font-family: 'yulinda_script', serif;
+
+$header-font-family: 'Playfair Display', serif;
+
+$spacing-unit:     3rem;
+
+$color-black:      rgba(40,40,40,.99);
+$color-white:      rgba(255,255,255,.99);
+$color-off-white:  rgba(251,251,251,.99);
+$color-brand:      rgba(33,110,142,.99);
+$color-brand-alt:  rgba(157,203,208,.95);
+$color-transparent:rgba(0,0,0,0);
+$color-grey:       rgba(200,200,200,1);
+$color-grey-light: lighten($color-grey, 10%);
+$color-grey-dark:  darken($color-grey, 20%);
+
+$border-radius: .3em;
+$box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
+$height-bottom: 100;
+$height-middle: 200;
+$height-high: 300;
+$height-top: 1000;
+
+// Width of the content area
+$content-width:    740px;
+$phone:            500px;
+$tablet:           1024px;
+$laptop:           1400px;
+$desktop:          1600px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+// Import SCSS
+@import
+"jeet/jeet",
+"animate/animate",
+"base",
+"buttons",
+"layout",
+"blocks",
+"burger",
+"navigation",
+"footer",
+"forms",
+"animation",
+"util",
+"baguetteBox"
+;
