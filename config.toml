@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://blessyourheartal.com/"
 disableAliases = true
 enableRobotsTXT = true
 languageCode = "en-us"
