@@ -4,15 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- path: content
-  label: Pages
-  create: all
 - type: document
   path: content/alerts.md
   label: Alerts
-- path: content/journal
+- type: directory
+  path: content/journal
   label: Journal
   create: all
+  match: "**/*"
   templates:
   - post
 upload_dir: static/uploads
@@ -23,12 +22,12 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.63.2
+  - HUGO_VERSION=0.69.0
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node10
   mount_path: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.63.2
+version: 0.69.0
 
