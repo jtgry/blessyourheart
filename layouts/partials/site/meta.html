@@ -4,13 +4,12 @@
 
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
 
-<meta property="og:title" content="{{ with .Title }}{{ . }} | {{ else }}{{ .Site.Title }}{{ end }} Alabama Home Decor">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:image" content="/images/website.jpg">
-<meta property="og:url" content="{{ .URL }}">
+{{ template "_internal/opengraph.html" . }}
+{{ with .Site.Params.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
+{{ with .Site.Params.title }}<meta property="og:title" content="{{ . }}" />{{ end }}
 
 {{ template "_internal/google_analytics.html" . }}
 
 <link rel="icon" type="image/png" sizes="64x64" href="/images/icon.ico">
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
